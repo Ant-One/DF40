@@ -57,14 +57,14 @@ class CLIPDetector(AbstractDetector):
         self.config = config
         self.backbone = self.build_backbone(config)
         self.head = nn.Linear(1024, 2)  # for CLIP-large-14
-        # self.head = nn.Linear(768, 2) # for CLIP-base-16
+        #self.head = nn.Linear(768, 2) # for CLIP-base-16
         self.loss_func = self.build_loss(config)
         
     def build_backbone(self, config):
         # please download the ckpts from the below link:
         
         # use CLIP-base-16
-        # _, backbone = get_clip_visual(model_name="openai/clip-vit-base-patch16")        
+        #_, backbone = get_clip_visual(model_name="openai/clip-vit-base-patch16")        
         
         # use CLIP-large-14
         _, backbone = get_clip_visual(model_name="openai/clip-vit-large-patch14")      

@@ -116,16 +116,16 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
             A.Rotate(limit=self.config['data_aug']['rotate_limit'], p=self.config['data_aug']['rotate_prob']),
             A.GaussianBlur(blur_limit=self.config['data_aug']['blur_limit'], p=self.config['data_aug']['blur_prob']),
             A.OneOf([
-                IsotropicResize(max_side=self.config['resolution'], interpolation_down=cv2.INTER_AREA, interpolation_up=cv2.INTER_CUBIC),
-                IsotropicResize(max_side=self.config['resolution'], interpolation_down=cv2.INTER_AREA, interpolation_up=cv2.INTER_LINEAR),
-                IsotropicResize(max_side=self.config['resolution'], interpolation_down=cv2.INTER_LINEAR, interpolation_up=cv2.INTER_LINEAR),
+                IsotropicResize(max_side=self.config['resolution'], interpolation_down=cv2.INTER_AREA, interpolation_up=cv2.INTER_CUBIC, p=1.0),
+                IsotropicResize(max_side=self.config['resolution'], interpolation_down=cv2.INTER_AREA, interpolation_up=cv2.INTER_LINEAR, p=1.0),
+                IsotropicResize(max_side=self.config['resolution'], interpolation_down=cv2.INTER_LINEAR, interpolation_up=cv2.INTER_LINEAR, p=1.0),
             ], p = 0 if self.config['with_landmark'] else 1),
             A.OneOf([
                 A.RandomBrightnessContrast(brightness_limit=self.config['data_aug']['brightness_limit'], contrast_limit=self.config['data_aug']['contrast_limit']),
                 A.FancyPCA(),
                 A.HueSaturationValue()
             ], p=0.5),
-            A.ImageCompression(quality_lower=self.config['data_aug']['quality_lower'], quality_upper=self.config['data_aug']['quality_upper'], p=0.5)
+            A.ImageCompression(quality_range=[self.config['data_aug']['quality_lower'], self.config['data_aug']['quality_upper']], p=0.5)
         ],
             keypoint_params=A.KeypointParams(format='xy') if self.config['with_landmark'] else None
         )
@@ -181,8 +181,10 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
             dataset_name = 'FF-NT'
             cp = 'c40'
         # Get the information for the current dataset
+
         for label in dataset_info[dataset_name]:
             sub_dataset_info = dataset_info[dataset_name][label][self.mode]
+            print("LEN", len(sub_dataset_info), label)
             # Special case for FaceForensics++ and DeepFakeDetection, choose the compression type
             if cp == None and dataset_name in ['FF-DF', 'FF-F2F', 'FF-FS', 'FF-NT', 'FaceForensics++','DeepFakeDetection','FaceShifter']:
                 sub_dataset_info = sub_dataset_info[self.compression]
@@ -213,6 +215,7 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
                 # Consider the case when the actual number of frames (e.g., 270) is larger than the specified (i.e., self.frame_num=32)
                 # In this case, we select self.frame_num frames from the original 270 frames
                 total_frames = len(frame_paths)
+
                 if self.frame_num < total_frames:
                     total_frames = self.frame_num
                     if self.video_level:

@@ -1,0 +1,9 @@
+DeepfakeBench_DF40/deepfakes_detection_datasets
+DeepfakeBench_DF40/training/df40_weights
+DeepfakeBench_DF40/training/deepfakebench_weights
+DeepfakeBench_DF40/training/pretrained
+torch_ckpts/I3D_8x8_R50.pth
+
+DeepfakeBench_DF40/preprocessing/dataset_json/*
+
+*.pyc

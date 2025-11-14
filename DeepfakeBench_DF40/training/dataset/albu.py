@@ -25,8 +25,8 @@ def isotropically_resize_image(img, size, interpolation_down=cv2.INTER_AREA, int
 
 class IsotropicResize(DualTransform):
     def __init__(self, max_side, interpolation_down=cv2.INTER_AREA, interpolation_up=cv2.INTER_CUBIC,
-                 always_apply=False, p=1):
-        super(IsotropicResize, self).__init__(always_apply, p)
+                 always_apply=False, p=1.0):
+        super(IsotropicResize, self).__init__(p=p)
         self.max_side = max_side
         self.interpolation_down = interpolation_down
         self.interpolation_up = interpolation_up

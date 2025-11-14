@@ -31,7 +31,7 @@ from optimizor.LinearLR import LinearDecayLR
 
 from trainer.trainer import Trainer
 from detectors import DETECTOR
-from dataset import *
+from dataset import abstract_dataset
 from metrics.utils import parse_metric_for_print
 from logger import create_logger, RankFilter
 
@@ -71,7 +71,7 @@ def prepare_training_data(config):
     elif 'dataset_type' in config and config['dataset_type'] == 'pair':
         train_set = pairDataset(config, mode='train')  # Only use the pair dataset class in training
     else:
-        train_set = DeepfakeAbstractBaseDataset(
+        train_set = abstract_dataset.DeepfakeAbstractBaseDataset(
                     config=config,
                     mode='train',
                 )
@@ -103,7 +103,7 @@ def prepare_testing_data(config):
         # update the config dictionary with the specific testing dataset
         config = config.copy()  # create a copy of config to avoid altering the original one
         config['test_dataset'] = test_name  # specify the current test dataset
-        test_set = DeepfakeAbstractBaseDataset(
+        test_set = abstract_dataset.DeepfakeAbstractBaseDataset(
                     config=config,
                     mode='test',
             )
@@ -259,6 +259,8 @@ def main():
 
     # prepare the trainer
     trainer = Trainer(config, model, optimizer, scheduler, logger, metric_scoring)
+
+    print(len(train_data_loader), "LENGTH TRAIN")
 
     # start training
     for epoch in range(config['start_epoch'], config['nEpochs'] + 1):

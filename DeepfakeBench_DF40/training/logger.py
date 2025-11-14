@@ -8,7 +8,8 @@ class RankFilter(logging.Filter):
         self.rank = rank
 
     def filter(self, record):
-        return dist.get_rank() == self.rank
+        #return dist.get_rank() == self.rank
+        return True
 
 def create_logger(log_path, rank=0):
     # Create log path
