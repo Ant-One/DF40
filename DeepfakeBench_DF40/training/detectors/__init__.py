@@ -13,7 +13,8 @@ from .xception_detector import XceptionDetector
 from .spsl_detector import SpslDetector
 from .srm_detector import SRMDetector
 from .recce_detector import RecceDetector
-from .clip_detector import CLIPDetector
+from .clip_base_detector import CLIPBaseDetector
+from .clip_large_detector import CLIPLargeDetector
 from .sbi_detector import SBIDetector
 from .i3d_detector import I3DDetector
 from .rfm_detector import RFMDetector

@@ -6,4 +6,5 @@ torch_ckpts/I3D_8x8_R50.pth
 
 DeepfakeBench_DF40/preprocessing/dataset_json/*
 
+df40_exps/**/preds
 *.pyc

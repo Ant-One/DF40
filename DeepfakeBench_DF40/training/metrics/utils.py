@@ -95,4 +95,4 @@ def get_test_metrics(y_pred, y_true, img_names):
         # video-level methods
         v_auc=auc
 
-    return {'acc': acc, 'auc': auc, 'eer': eer, 'ap': ap, 'pred': y_pred, 'video_auc': v_auc, 'label': y_true}
+    return ({'acc': acc, 'auc': auc, 'eer': eer, 'ap': ap, 'video_auc': v_auc}), ({'pred': y_pred, 'label': y_true, 'paths': img_names})

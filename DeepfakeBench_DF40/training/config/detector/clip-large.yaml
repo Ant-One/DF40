@@ -1,5 +1,9 @@
 # log dir 
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnEFS/clip_large
+metrics_dir: /home/antoine/DF40/df40_exps/trainOnDF40/clip_large/metrics/
+preds_dir: /home/antoine/DF40/df40_exps/trainOnDF40/clip_large/preds/
+save_preds: true
+
 #log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnDF40/clip_multihead
 
 # model setting
@@ -23,7 +27,7 @@ compression: c23  # compression-level for videos
 train_batchSize: 32   # training batch size
 test_batchSize: 32   # test batch size
 workers: 8   # number of data loading workers
-frame_num: {'train': 8, 'test': 8}   # number of frames to use per video in training and testing
+frame_num: {'train': 8, 'test': 32}   # number of frames to use per video in training and testing
 resolution: 224   # resolution of output image to network
 with_mask: false   # whether to include mask information in the input
 with_landmark: false   # whether to include facial landmark information in the input

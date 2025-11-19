@@ -1,4 +1,4 @@
-'''
+"""
 # author: Zhiyuan Yan
 # email: zhiyuanyan@link.cuhk.edu.cn
 # date: 2023-0706
@@ -18,12 +18,12 @@ Functions in the Class are summarized as:
 Reference:
 @inproceedings{rossler2019faceforensics++,
   title={Faceforensics++: Learning to detect manipulated facial images},
-  author={Rossler, Andreas and Cozzolino, Davide and Verdoliva, Luisa and Riess, Christian and Thies, Justus and Nie{\ss}ner, Matthias},
+  author={Rossler, Andreas and Cozzolino, Davide and Verdoliva, Luisa and Riess, Christian and Thies, Justus and Niessner, Matthias},
   booktitle={Proceedings of the IEEE/CVF international conference on computer vision},
   pages={1--11},
   year={2019}
 }
-'''
+"""
 
 import os
 import datetime
@@ -50,24 +50,24 @@ from transformers import AutoProcessor, CLIPModel, ViTModel, ViTConfig
 
 logger = logging.getLogger(__name__)
 
-@DETECTOR.register_module(module_name='clip')
-class CLIPDetector(AbstractDetector):
+@DETECTOR.register_module(module_name='clip-base')
+class CLIPBaseDetector(AbstractDetector):
     def __init__(self, config):
         super().__init__()
         self.config = config
         self.backbone = self.build_backbone(config)
-        self.head = nn.Linear(1024, 2)  # for CLIP-large-14
-        #self.head = nn.Linear(768, 2) # for CLIP-base-16
+        #self.head = nn.Linear(1024, 2)  # for CLIP-large-14
+        self.head = nn.Linear(768, 2) # for CLIP-base-16
         self.loss_func = self.build_loss(config)
         
     def build_backbone(self, config):
         # please download the ckpts from the below link:
         
         # use CLIP-base-16
-        #_, backbone = get_clip_visual(model_name="openai/clip-vit-base-patch16")        
+        _, backbone = get_clip_visual(model_name="openai/clip-vit-base-patch16")        
         
         # use CLIP-large-14
-        _, backbone = get_clip_visual(model_name="openai/clip-vit-large-patch14")      
+        #_, backbone = get_clip_visual(model_name="openai/clip-vit-large-patch14")      
         return backbone
     
     def build_loss(self, config):
@@ -111,7 +111,7 @@ class CLIPDetector(AbstractDetector):
         return pred_dict
 
 def get_clip_visual(model_name = "openai/clip-vit-base-patch16"):
-    processor = AutoProcessor.from_pretrained(model_name)
+    processor = AutoProcessor.from_pretrained(model_name, use_fast=True)
     model = CLIPModel.from_pretrained(model_name)
     return processor, model.vision_model
 

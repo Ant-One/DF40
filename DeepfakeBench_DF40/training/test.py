@@ -9,6 +9,7 @@ import random
 import datetime
 import time
 import yaml
+import json
 import pickle
 from tqdm import tqdm
 from copy import deepcopy
@@ -32,6 +33,8 @@ from collections import defaultdict
 
 import argparse
 from logger import create_logger
+
+import pdb
 
 parser = argparse.ArgumentParser(description='Process some paths.')
 parser.add_argument('--detector_path', type=str, 
@@ -119,6 +122,8 @@ def test_epoch(model, test_data_loaders):
 
     # define test recorder
     metrics_all_datasets = {}
+    preds_labels_paths = {}
+
 
     # testing for all test data
     keys = test_data_loaders.keys()
@@ -128,22 +133,47 @@ def test_epoch(model, test_data_loaders):
         predictions_nps, label_nps = test_one_dataset(model, test_data_loaders[key])
         
         # compute metric for each dataset
-        metric_one_dataset = get_test_metrics(y_pred=predictions_nps, y_true=label_nps,
+        metric_one_dataset, preds_labels_paths_one_dataset = get_test_metrics(y_pred=predictions_nps, y_true=label_nps,
                                               img_names=data_dict['image'])
         metrics_all_datasets[key] = metric_one_dataset
+        preds_labels_paths[key] = preds_labels_paths_one_dataset
         
         # info for each dataset
         tqdm.write(f"dataset: {key}")
         for k, v in metric_one_dataset.items():
+
+            if k == "pred" or k == "label" or k == "paths":
+                continue
+
             tqdm.write(f"{k}: {v}")
 
-    return metrics_all_datasets
+    return metrics_all_datasets, preds_labels_paths
 
 @torch.no_grad()
 def inference(model, data_dict):
     predictions = model(data_dict, inference=True)
     return predictions
 
+class NumpyEncoder(json.JSONEncoder):
+    def default(self, obj):
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super().default(obj)
+
+def _write_metrics(config, metrics, preds_labels_paths):
+    if config['metrics_dir']:
+        os.makedirs(f"{os.path.dirname(config['metrics_dir'])}/{config["test_dataset"][0]}", exist_ok=True)
+        with open(f"{config["metrics_dir"]}/{config["test_dataset"][0]}/{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as metrics_file:
+            json.dump(metrics, metrics_file, indent=4, cls=NumpyEncoder)
+
+
+    if config['preds_dir'] and config['save_preds']:
+        os.makedirs(f"{os.path.dirname(config['preds_dir'])}/{config["test_dataset"][0]}", exist_ok=True)
+        print("Saving predictions")
+        with open(f"{config["preds_dir"]}{config["test_dataset"][0]}/preds-{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as preds_file:
+            json.dump(preds_labels_paths, preds_file, indent=4, cls=NumpyEncoder)
+
+        
 
 def main():
     
@@ -207,7 +237,11 @@ def main():
         print('Fail to load the pre-trained weights')
     
     # start testing
-    best_metric = test_epoch(model, test_data_loaders)
+    metrics, preds_labels_paths = test_epoch(model, test_data_loaders)
+
+    _write_metrics(config, metrics, preds_labels_paths)
+
+
     print('===> Test Done!')
 
 
