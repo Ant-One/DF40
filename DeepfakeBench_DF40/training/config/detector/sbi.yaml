@@ -1,8 +1,13 @@
 # log dir
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/benchv2/redefine_df40_wocrop
 
+
+metrics_dir: /home/antoine/DF40/df40_exps/trainOnDF40/sbi/metrics/
+preds_dir: /home/antoine/DF40/df40_exps/trainOnDF40/sbi/preds/
+save_preds: true
+
 # model setting
-pretrained: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/DeepfakeBench/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: sbi   # model name
 backbone_name: efficientnetb4  # backbone name
 

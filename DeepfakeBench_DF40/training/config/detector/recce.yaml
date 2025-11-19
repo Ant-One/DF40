@@ -1,6 +1,10 @@
 # log dir 
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnFR/recce
 
+metrics_dir: /home/antoine/DF40/df40_exps/trainOnFF/recce/metrics/
+preds_dir: /home/antoine/DF40/df40_exps/trainOnOnFF/recce/preds/
+save_preds: true
+
 # model setting
 pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: recce # model name
