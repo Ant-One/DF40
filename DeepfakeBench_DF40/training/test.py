@@ -164,6 +164,7 @@ def _write_metrics(config, metrics, preds_labels_paths):
     if config['metrics_dir']:
         os.makedirs(f"{os.path.dirname(config['metrics_dir'])}/{config["test_dataset"][0]}", exist_ok=True)
         with open(f"{config["metrics_dir"]}/{config["test_dataset"][0]}/{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as metrics_file:
+            metrics["model"] = config['model_name']
             json.dump(metrics, metrics_file, indent=4, cls=NumpyEncoder)
 
 
@@ -171,6 +172,7 @@ def _write_metrics(config, metrics, preds_labels_paths):
         os.makedirs(f"{os.path.dirname(config['preds_dir'])}/{config["test_dataset"][0]}", exist_ok=True)
         print("Saving predictions")
         with open(f"{config["preds_dir"]}{config["test_dataset"][0]}/preds-{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as preds_file:
+            preds_labels_paths['model'] = config['model_name']
             json.dump(preds_labels_paths, preds_file, indent=4, cls=NumpyEncoder)
 
         
