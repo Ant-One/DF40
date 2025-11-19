@@ -4,7 +4,9 @@
         "auc": 0.8203263718870605,
         "eer": 0.24786476868327403,
         "ap": 0.9342825978862912,
-        "video_auc": 0.7291571896465452,
-        "model": "xception"
-    }
+        "video_auc": 0.7291571896465452
+    },
+    "model": "xception",
+    "frames_per_video_test": 32
+
 }
