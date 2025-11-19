@@ -50,7 +50,7 @@ from transformers import AutoProcessor, CLIPModel, ViTModel, ViTConfig
 
 logger = logging.getLogger(__name__)
 
-@DETECTOR.register_module(module_name='clip-base')
+@DETECTOR.register_module(module_name='clip_large')
 class CLIPLargeDetector(AbstractDetector):
     def __init__(self, config):
         super().__init__()

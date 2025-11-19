@@ -8,7 +8,7 @@ save_preds: true
 
 # model setting
 pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
-model_name: clip-base   # model name
+model_name: clip_base   # model name
 backbone_name: vit  # backbone name
 
 #backbone setting
