@@ -2,6 +2,7 @@
 eval pretained model.
 """
 import os
+import time
 import numpy as np
 from os.path import join
 import cv2
@@ -160,11 +161,12 @@ class NumpyEncoder(json.JSONEncoder):
             return obj.tolist()
         return super().default(obj)
 
-def _write_metrics(config, metrics, preds_labels_paths):
+def _write_metrics(config, metrics, preds_labels_paths, start_time):
     if config['metrics_dir']:
         os.makedirs(f"{os.path.dirname(config['metrics_dir'])}/{config["test_dataset"][0]}", exist_ok=True)
         with open(f"{config["metrics_dir"]}/{config["test_dataset"][0]}/{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as metrics_file:
             metrics["model"] = config["model_name"]
+            metrics["elapsed_seconds"] = time.time() - start_time
             metrics["frames_per_video_test"] = config["frame_num"]["test"]
             json.dump(metrics, metrics_file, indent=4, cls=NumpyEncoder)
 
@@ -215,6 +217,8 @@ def main():
     model_class = DETECTOR[config['model_name']]
     model = model_class(config).to(device)
     epoch = 0
+
+    start_time = time.time()
     if weights_path:
         try:
             epoch = int(weights_path.split('/')[-1].split('.')[0].split('_')[2])
@@ -242,7 +246,7 @@ def main():
     # start testing
     metrics, preds_labels_paths = test_epoch(model, test_data_loaders)
 
-    _write_metrics(config, metrics, preds_labels_paths)
+    _write_metrics(config, metrics, preds_labels_paths, start_time)
 
 
     print('===> Test Done!')

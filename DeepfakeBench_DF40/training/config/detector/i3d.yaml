@@ -1,6 +1,10 @@
 # log dir 
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnFR/i3d
 
+metrics_dir: /home/antoine/DF40/df40_exps/trainOnDF40/i3d/metrics/
+preds_dir: /home/antoine/DF40/df40_exps/trainOnDF40/i3d/preds/
+save_preds: true
+
 # model setting
 pretrained: ./training/pretrained/I3D_8x8_R50.pth   # path to a pre-trained model, if using one
 #pretrained: null

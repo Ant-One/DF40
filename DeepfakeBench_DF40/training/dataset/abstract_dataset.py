@@ -4,6 +4,7 @@
 # description: Abstract Base Class for all types of deepfake datasets.
 
 import sys
+import re
 
 import lmdb
 
@@ -191,6 +192,7 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
             elif cp == 'c40' and dataset_name in ['FF-DF', 'FF-F2F', 'FF-FS', 'FF-NT', 'FaceForensics++','DeepFakeDetection','FaceShifter']:
                 sub_dataset_info = sub_dataset_info['c40']
 
+            #breakpoint()
             # Iterate over the videos in the dataset
             for video_name, video_info in sub_dataset_info.items():
                 # Unique video name
@@ -209,7 +211,7 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
                     if '\\' in frame_paths[0]:
                         frame_paths = sorted(frame_paths, key=lambda x: int(x.split('\\')[-1].split('.')[0]))
                     else:
-                        frame_paths = sorted(frame_paths, key=lambda x: int(x.split('/')[-1].split('.')[0]))
+                        frame_paths = sorted(frame_paths, key=lambda x: int(re.findall("\\d+", x.split('/')[-1].split('.')[0])[0]))
 
 
                 # Consider the case when the actual number of frames (e.g., 270) is larger than the specified (i.e., self.frame_num=32)
