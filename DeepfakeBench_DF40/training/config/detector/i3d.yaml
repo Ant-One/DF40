@@ -2,7 +2,7 @@
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnFR/i3d
 
 # model setting
-pretrained: ../torch_ckpts/I3D_8x8_R50.pth   # path to a pre-trained model, if using one
+pretrained: ./training/pretrained/I3D_8x8_R50.pth   # path to a pre-trained model, if using one
 #pretrained: null
 model_name: i3d   # model name
 backbone_name: xception  # backbone name
