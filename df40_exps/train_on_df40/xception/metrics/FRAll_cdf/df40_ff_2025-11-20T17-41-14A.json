@@ -1,0 +1,14 @@
+{
+    "FRAll_cdf": {
+        "acc": 0.7939859038570765,
+        "auc": 0.8203263718870605,
+        "eer": 0.24786476868327403,
+        "ap": 0.9342825978862912,
+        "video_auc": 0.7291571896465452
+    },
+    "model": "xception",
+    "weights_path": "training/df40_weights/train_on_df40-all-ff/xception.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 645.2651410102844,
+    "frames_per_video_test": 32
+}
