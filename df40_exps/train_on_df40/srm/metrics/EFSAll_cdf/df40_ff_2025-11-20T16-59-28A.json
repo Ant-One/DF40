@@ -1,0 +1,14 @@
+{
+    "EFSAll_cdf": {
+        "acc": 0.915838205273122,
+        "auc": 0.9637757760686998,
+        "eer": 0.10587188612099645,
+        "ap": 0.992176361788183,
+        "video_auc": 0.9996281057129293
+    },
+    "model": "srm",
+    "weights_path": "training/df40_weights/train_on_df40-efs-ff/srm.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 1652.1487126350403,
+    "frames_per_video_test": 32
+}

@@ -1,9 +1,11 @@
 eval "$(conda shell.zsh hook)"
 conda activate df40
 
+# Redo xception
+
 python training/test.py --detector_path training/config/detector/xception.yaml --test_dataset FSAll_cdf --weights_path training/df40_weights/train_on_df40-all-ff/xception.pth
-python training/test.py --detector_path training/config/detector/clip_large.yaml --test_dataset FRAll_cdf --weights_path training/df40_weights/train_on_df40-all-ff/xception.pth
-python training/test.py --detector_path training/config/detector/clip_large.yaml --test_dataset EFSAll_cdf --weights_path training/df40_weights/train_on_df40-all-ff/xception.pth
+python training/test.py --detector_path training/config/detector/xception.yaml --test_dataset FRAll_cdf --weights_path training/df40_weights/train_on_df40-all-ff/xception.pth
+python training/test.py --detector_path training/config/detector/xception.yaml --test_dataset EFSAll_cdf --weights_path training/df40_weights/train_on_df40-all-ff/xception.pth
 
 python training/test.py --detector_path training/config/detector/clip_large.yaml --test_dataset FSAll_cdf --weights_path training/df40_weights/train_on_df40-all-ff/clip_large.pth
 python training/test.py --detector_path training/config/detector/clip_large.yaml --test_dataset FRAll_cdf --weights_path training/df40_weights/train_on_df40-all-ff/clip_large.pth
@@ -24,10 +26,6 @@ python training/test.py --detector_path training/config/detector/spsl.yaml --tes
 python training/test.py --detector_path training/config/detector/recce.yaml --test_dataset FSAll_cdf --weights_path training/df40_weights/train_on_df40-fs-ff/recce.pth
 python training/test.py --detector_path training/config/detector/recce.yaml --test_dataset FRAll_cdf --weights_path training/df40_weights/train_on_df40-fr-ff/recce.pth
 python training/test.py --detector_path training/config/detector/recce.yaml --test_dataset EFSAll_cdf --weights_path training/df40_weights/train_on_df40-efs-ff/recce.pth
-
-# python training/test.py --detector_path training/config/detector/sbi.yaml --test_dataset FSAll_cdf --weights_path training/df40_weights/train_on_df40-fs-ff/sbi.pth
-# python training/test.py --detector_path training/config/detector/sbi.yaml --test_dataset FRAll_cdf --weights_path training/df40_weights/train_on_df40-fr-ff/sbi.pth
-# python training/test.py --detector_path training/config/detector/sbi.yaml --test_dataset EFSAll_cdf --weights_path training/df40_weights/train_on_df40-efs-ff/sbi.pth
 
 python training/test.py --detector_path training/config/detector/srm.yaml --test_dataset FSAll_cdf --weights_path training/df40_weights/train_on_df40-fs-ff/srm.pth
 python training/test.py --detector_path training/config/detector/srm.yaml --test_dataset FRAll_cdf --weights_path training/df40_weights/train_on_df40-fr-ff/srm.pth

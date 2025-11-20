@@ -1,0 +1,14 @@
+{
+    "FRAll_cdf": {
+        "acc": 0.8394912174439734,
+        "auc": 0.882241551342675,
+        "eer": 0.21348314606741572,
+        "ap": 0.9616325461578897,
+        "video_auc": 0.7321097552654324
+    },
+    "model": "recce",
+    "weights_path": "training/df40_weights/train_on_df40-fr-ff/recce.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 46.83903956413269,
+    "frames_per_video_test": 1
+}
