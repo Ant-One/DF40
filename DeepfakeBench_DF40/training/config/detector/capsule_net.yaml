@@ -1,6 +1,10 @@
 # log dir 
 log_dir: /mntcephfs/lab_data/yuanxinhang/benchmark_results/logs_final/capsule_new
 
+metrics_dir:  /home/antoine/DF40/df40_exps/$trainDataset/capsule_net/metrics/
+preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/capsule_net/preds/
+save_preds: true
+
 # model setting
 pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: capsule_net # model name

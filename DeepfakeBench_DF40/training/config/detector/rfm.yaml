@@ -1,8 +1,8 @@
 # log dir 
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnFR/rfm
 
-metrics_dir: /home/antoine/DF40/df40_exps/trainOnFF/rfm/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/trainOnFF/rfm/preds/
+metrics_dir:  /home/antoine/DF40/df40_exps/$trainDataset/rfm/metrics/
+preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/rfm/preds/
 save_preds: true
 
 

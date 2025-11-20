@@ -2,8 +2,8 @@
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnFR/spsl
 
 
-metrics_dir: /home/antoine/DF40/df40_exps/trainOnFF/spsl/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/trainOnFF/spsl/preds/
+metrics_dir:  /home/antoine/DF40/df40_exps/$trainDataset/spsl/metrics/
+preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/spsl/preds/
 save_preds: true
 
 # model setting

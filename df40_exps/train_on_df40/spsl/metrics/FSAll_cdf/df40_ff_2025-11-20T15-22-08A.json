@@ -1,0 +1,14 @@
+{
+    "FSAll_cdf": {
+        "acc": 0.8694288945169761,
+        "auc": 0.9376198730415503,
+        "eer": 0.13256227758007116,
+        "ap": 0.9782701662292036,
+        "video_auc": 0.976123595505618
+    },
+    "model": "spsl",
+    "weights_path": "training/df40_weights/train_on_df40-fs-ff/spsl.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 451.4793517589569,
+    "frames_per_video_test": 32
+}

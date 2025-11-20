@@ -1,7 +1,7 @@
 # log dir 
-log_dir: /home/antoine/DF40/df40_exps/trainOnDF40/xception/binary
-metrics_dir: /home/antoine/DF40/df40_exps/trainOnDF40/xception/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/trainOnDF40/xception/preds/
+log_dir: /home/antoine/DF40/df40_exps/$trainDataset/xception/binary
+metrics_dir: /home/antoine/DF40/df40_exps/$trainDataset/xception/metrics/
+preds_dir: /home/antoine/DF40/df40_exps/$trainDataset/xception/preds/
 save_preds: true
 
 # model setting

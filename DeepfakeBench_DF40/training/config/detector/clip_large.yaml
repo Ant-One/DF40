@@ -1,7 +1,7 @@
 # log dir 
 log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnEFS/clip_large
-metrics_dir: /home/antoine/DF40/df40_exps/trainOnDF40/clip_large/metrics/
-preds_dir: /home/antoine/DF40/df40_exps/trainOnDF40/clip_large/preds/
+metrics_dir:  /home/antoine/DF40/df40_exps/$trainDataset/clip_large/metrics/
+preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/clip_large/preds/
 save_preds: true
 
 #log_dir: /Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/logs/df40_exps/trainOnDF40/clip_multihead

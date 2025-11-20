@@ -1,0 +1,14 @@
+{
+    "EFSAll_cdf": {
+        "acc": 0.8267975057272716,
+        "auc": 0.8575538092855031,
+        "eer": 0.20507399577167018,
+        "ap": 0.9566407655078515,
+        "video_auc": 0.7255736667194177
+    },
+    "model": "clip_large",
+    "weights_path": "training/df40_weights/train_on_df40-all-ff/clip_large.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 1450.5171246528625,
+    "frames_per_video_test": 8
+}

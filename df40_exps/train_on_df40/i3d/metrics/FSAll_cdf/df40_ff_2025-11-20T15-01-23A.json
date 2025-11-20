@@ -1,0 +1,14 @@
+{
+    "FSAll_cdf": {
+        "acc": 0.8317851846069784,
+        "auc": 0.8958086949500423,
+        "eer": 0.20303030303030303,
+        "ap": 0.9619639785416976,
+        "video_auc": 0.8958086949500423
+    },
+    "model": "i3d",
+    "weights_path": "training/df40_weights/train_on_df40-all-ff/i3d.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 265.4832375049591,
+    "frames_per_video_test": 32
+}

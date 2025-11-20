@@ -13,6 +13,7 @@ import time
 import yaml
 import json
 import pickle
+from string import Template
 from tqdm import tqdm
 from copy import deepcopy
 from PIL import Image as pil_image
@@ -164,10 +165,12 @@ class NumpyEncoder(json.JSONEncoder):
 
 def _write_metrics(config, metrics, preds_labels_paths, start_time):
 
-    train_dataset = f"{re.findall(string=config["weights_path"], pattern="train_on_[a-zA-Z\\d]+")[0].split("_")[2]}_ff"
+    train_dataset_full = re.findall(string=config["weights_path"], pattern="train_on_[a-zA-Z\\d]+")[0]
+    train_dataset = f"{train_dataset_full.split("_")[2]}_ff"
     if config['metrics_dir']:
-        os.makedirs(f"{os.path.dirname(config['metrics_dir'])}/{config["test_dataset"][0]}", exist_ok=True)
-        with open(f"{config["metrics_dir"]}/{config["test_dataset"][0]}/{train_dataset}_{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as metrics_file:
+        metrics_dir = Template(config['metrics_dir']).substitute(trainDataset = train_dataset_full)
+        os.makedirs(f"{os.path.dirname(metrics_dir)}/{config["test_dataset"][0]}", exist_ok=True)
+        with open(f"{metrics_dir}/{config["test_dataset"][0]}/{train_dataset}_{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as metrics_file:
 
             metrics["model"] = config["model_name"]
             metrics["weights_path"] = config["weights_path"]
@@ -178,9 +181,10 @@ def _write_metrics(config, metrics, preds_labels_paths, start_time):
 
 
     if config['preds_dir'] and config['save_preds']:
-        os.makedirs(f"{os.path.dirname(config['preds_dir'])}/{config["test_dataset"][0]}", exist_ok=True)
+        preds_dir = Template(config['preds_dir']).substitute(trainDataset = train_dataset_full)
+        os.makedirs(f"{os.path.dirname(preds_dir)}/{config["test_dataset"][0]}", exist_ok=True)
         print("Saving predictions")
-        with open(f"{config["preds_dir"]}{config["test_dataset"][0]}/preds-{train_dataset}_{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as preds_file:
+        with open(f"{preds_dir}{config["test_dataset"][0]}/preds-{train_dataset}_{datetime.datetime.now(datetime.timezone(datetime.timedelta(hours=+1))).strftime("%Y-%m-%dT%H-%M-%SA")}.json", "x") as preds_file:
             preds_labels_paths['model'] = config['model_name']
             preds_labels_paths["weights_path"] = config["weights_path"]
             metrics["train_dataset"] = train_dataset

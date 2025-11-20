@@ -1,0 +1,14 @@
+{
+    "FRAll_cdf": {
+        "acc": 0.7855110222975451,
+        "auc": 0.8956935020789453,
+        "eer": 0.16913319238900634,
+        "ap": 0.9535618027383996,
+        "video_auc": 0.8686371286903516
+    },
+    "model": "clip_large",
+    "weights_path": "training/df40_weights/train_on_df40-all-ff/clip_large.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 1403.3117182254791,
+    "frames_per_video_test": 8
+}
