@@ -1,0 +1,14 @@
+{
+    "FRAll_cdf": {
+        "acc": 0.2982913225492304,
+        "auc": 0.3912514861840812,
+        "eer": 0.5799859055673009,
+        "ap": 0.745497409950248,
+        "video_auc": 0.36495814947914296
+    },
+    "model": "effort",
+    "weights_path": "training/deepfakebench_weights/train_on_genimage/effort_genimage_best.pth",
+    "train_dataset": "genimage_ff",
+    "elapsed_seconds": 1405.5874865055084,
+    "frames_per_video_test": 8
+}

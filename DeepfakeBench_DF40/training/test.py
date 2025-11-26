@@ -255,7 +255,10 @@ def main():
             new_weights[new_key] = value
         
 
-        model.load_state_dict(new_weights, strict=True)
+        if type(model).__name__ == "EffortDetector":
+            model.load_state_dict(new_weights, strict=False)
+        else:
+            model.load_state_dict(new_weights, strict=True)
         print('===> Load checkpoint done!')
     else:
         print('Fail to load the pre-trained weights')

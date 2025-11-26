@@ -1,0 +1,14 @@
+{
+    "EFSAll_cdf": {
+        "acc": 0.8853810626385877,
+        "auc": 0.9327902659818649,
+        "eer": 0.13883016208597604,
+        "ap": 0.985429724426273,
+        "video_auc": 0.983517961702801
+    },
+    "model": "effort",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/effort_ff_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 1451.958254814148,
+    "frames_per_video_test": 8
+}

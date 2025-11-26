@@ -20,3 +20,4 @@ from .i3d_detector import I3DDetector
 from .rfm_detector import RFMDetector
 from .capsule_net_detector import CapsuleNetDetector
 from .ucf_detector import UCFDetector
+from .effort_detector import EffortDetector
