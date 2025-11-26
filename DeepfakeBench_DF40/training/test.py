@@ -114,6 +114,11 @@ def test_one_dataset(model, data_loader):
         # model forward without considering gradient computation
         predictions = inference(model, data_dict)
         label_lists += list(data_dict['label'].cpu().detach().numpy())
+
+        # if type(model).__name__ == "UCFDetector":
+        #     prediction_lists += predictions['prob']
+        # else:
+        #     
         prediction_lists += list(predictions['prob'].cpu().detach().numpy())
         #feature_lists += list(predictions['feat'].cpu().detach().numpy())
     

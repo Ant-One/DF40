@@ -1,0 +1,14 @@
+{
+    "EFSAll_cdf": {
+        "acc": 0.6692948890186013,
+        "auc": 0.6793594686068699,
+        "eer": 0.36459074733096086,
+        "ap": 0.9082278099452394,
+        "video_auc": 0.7360183573350214
+    },
+    "model": "capsule_net",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/capsule_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 976.1950080394745,
+    "frames_per_video_test": 32
+}

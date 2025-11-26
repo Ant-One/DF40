@@ -1,0 +1,14 @@
+{
+    "FRAll_cdf": {
+        "acc": 0.6829561883616461,
+        "auc": 0.6948549962654531,
+        "eer": 0.35604982206405694,
+        "ap": 0.8815325267968233,
+        "video_auc": 0.6511508893235682
+    },
+    "model": "capsule_net",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/capsule_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 926.4021141529083,
+    "frames_per_video_test": 32
+}
