@@ -252,8 +252,9 @@ def main():
                 new_key = new_key.replace('base_model.', 'backbone.')
             if 'classifier.' in new_key:
                 new_key = new_key.replace('classifier.', 'head.')
+            if 'HRNet_layer.' in new_key:
+                new_key = new_key.replace('HRNet_layer.', 'backbone.')
             new_weights[new_key] = value
-        
 
         if type(model).__name__ == "EffortDetector":
             model.load_state_dict(new_weights, strict=False)

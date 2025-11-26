@@ -21,3 +21,5 @@ from .rfm_detector import RFMDetector
 from .capsule_net_detector import CapsuleNetDetector
 from .ucf_detector import UCFDetector
 from .effort_detector import EffortDetector
+from .altfreezing_detector import AltFreezingDetector
+from .facexray_detector import FaceXrayDetector

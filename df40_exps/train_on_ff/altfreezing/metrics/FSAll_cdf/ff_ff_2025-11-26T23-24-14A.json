@@ -1,0 +1,14 @@
+{
+    "FSAll_cdf": {
+        "acc": 0.7531028022792913,
+        "auc": 0.5435100077768505,
+        "eer": 0.46060606060606063,
+        "ap": 0.7937263010955531,
+        "video_auc": 0.5435100077768505
+    },
+    "model": "altfreezing",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/altfreezing.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 266.6784164905548,
+    "frames_per_video_test": 300
+}
