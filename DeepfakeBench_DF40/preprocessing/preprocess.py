@@ -367,6 +367,7 @@ def video_manipulate(
 
 def preprocess(dataset_path, mask_path, mode, num_frames, stride, logger):
     # Define paths to videos in dataset
+    #breakpoint()
     movies_path_list = sorted([Path(p) for p in glob.glob(os.path.join(dataset_path, '**/*.mp4'), recursive=True)])
     if len(movies_path_list) == 0:
         logger.error(f"No videos found in {dataset_path}")
@@ -511,6 +512,10 @@ if __name__ == '__main__':
         sub_dataset_names = [d for d in os.listdir(dataset_path) if os.path.isdir(os.path.join(dataset_path, d)) and d not in aigc_dataset_name]
         # obtain all video names for each forgery folder
         sub_dataset_paths = [Path(os.path.join(dataset_path, name, 'ff')) for name in sub_dataset_names]
+
+    elif dataset_name == 'ConfDF_all':
+        sub_dataset_names = ['fake', 'real']
+        sub_dataset_paths = [Path(os.path.join(dataset_path, name)) for name in sub_dataset_names]
     
     else:
         raise ValueError(f"Dataset {dataset_name} not recognized")

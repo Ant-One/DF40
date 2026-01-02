@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.5833333333333334,
+        "auc": 0.680546697845805,
+        "eer": 0.37797619047619047,
+        "ap": 0.7047354367232634,
+        "video_auc": 0.6882086167800454
+    },
+    "model": "effort",
+    "weights_path": "training/deepfakebench_weights/train_on_chameleon/effort_chameleon_best.pth",
+    "train_dataset": "chameleon_ff",
+    "elapsed_seconds": 13.971247434616089,
+    "frames_per_video_test": 8
+}

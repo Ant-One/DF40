@@ -1,10 +1,10 @@
 preprocess:
   dataset_name: # the name of dataset
-    choices: ['FaceForensics++','Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','roop','uniface','simswap','DF40_ff','DF40_cdf']
-    default: 'DF40_ff'
+    choices: ['FaceForensics++','Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','roop','uniface','simswap','DF40_ff','DF40_cdf', 'ConfDF_all']
+    default: 'ConfDF_all'
   dataset_root_path: # the root path to the dataset
     type: str
-    default: '/Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/deepfakes_detection_datasets'
+    default: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/'
   comp: # the compression level of videos, only in the dataset of FaceForensics++.
     choices: ['raw', 'c23', 'c40']
     default: 'c23'
@@ -20,14 +20,14 @@ preprocess:
 
 rearrange:
   dataset_name: # the name of dataset
-    choices: ['FaceForensics++', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2','DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','FaceShifter','roop','uniface','simswap']
-    default: 'SRI_hq'
+    choices: ['FaceForensics++', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2','DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','FaceShifter','roop','uniface','simswap', 'ConfDF_all']
+    default: 'ConfDF_all'
   dataset_root_path: # the root path to the dataset
     type: str
-    default: '/Youtu_Pangu_Security/public/youtu-pangu-public/zhiyuanyan/deepfakes_detection_datasets'
+    default: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/'
   output_file_path: # the json path to the dataset
     type: str
-    default: '/Youtu_Pangu_Security_Public/youtu-pangu-public/zhiyuanyan/DeepfakeBenchv2/preprocessing/dataset_json'
+    default: '/home/antoine/DF40/DeepfakeBench_DF40/preprocessing/dataset_confdf_json'
   comp: # the compression level of videos, only in the dataset of FaceForensics++.
     choices: ['raw', 'c23', 'c40']
     default: 'c23'

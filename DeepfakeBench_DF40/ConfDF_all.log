@@ -1,0 +1,798 @@
+2026-01-02 16:24:26,705 - ERROR - Dataset path does not exist: /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/ConfDF_all
+2026-01-02 16:25:30,161 - ERROR - Dataset path does not exist: /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all
+2026-01-02 16:27:23,750 - INFO - 42 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake
+2026-01-02 16:28:31,471 - INFO - 42 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake
+2026-01-02 16:29:22,051 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/salma_hayek_3.mp4
+2026-01-02 16:29:31,238 - INFO - Current time: 2026-01-02 16:29:31
+2026-01-02 16:29:35,160 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/arnold_schwarzenegger_2.mp4
+2026-01-02 16:29:38,468 - INFO - Current time: 2026-01-02 16:29:38
+2026-01-02 16:29:39,052 - INFO - Current time: 2026-01-02 16:29:39
+2026-01-02 16:29:39,506 - INFO - Current time: 2026-01-02 16:29:39
+2026-01-02 16:29:39,648 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 16:29:41,001 - INFO - Current time: 2026-01-02 16:29:41
+2026-01-02 16:29:41,004 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/nile_red_1.mp4
+2026-01-02 16:29:41,688 - INFO - Current time: 2026-01-02 16:29:41
+2026-01-02 16:29:41,824 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 16:29:42,090 - INFO - Current time: 2026-01-02 16:29:42
+2026-01-02 16:29:43,533 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:29:43,838 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/nile_red_1.mp4
+2026-01-02 16:29:44,073 - INFO - Current time: 2026-01-02 16:29:44
+2026-01-02 16:29:44,593 - INFO - Current time: 2026-01-02 16:29:44
+2026-01-02 16:29:45,044 - INFO - Current time: 2026-01-02 16:29:45
+2026-01-02 16:29:45,344 - INFO - Current time: 2026-01-02 16:29:45
+2026-01-02 16:29:46,911 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:29:47,447 - INFO - Current time: 2026-01-02 16:29:47
+2026-01-02 16:29:47,833 - INFO - Current time: 2026-01-02 16:29:47
+2026-01-02 16:29:48,216 - INFO - Current time: 2026-01-02 16:29:48
+2026-01-02 16:29:49,971 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:29:50,763 - INFO - Current time: 2026-01-02 16:29:50
+2026-01-02 16:29:52,464 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:29:54,417 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/talyor_swift_2.mp4
+2026-01-02 16:29:54,631 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/salma_hayek_1.mp4
+2026-01-02 16:29:54,667 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:29:56,024 - INFO - Current time: 2026-01-02 16:29:56
+2026-01-02 16:29:56,550 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:29:57,370 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:29:58,385 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:01,708 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:01,932 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:03,675 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:03,941 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:05,328 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:06,087 - WARNING - No faces in frame 86 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:07,108 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:08,289 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:08,914 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:10,560 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:10,681 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:12,143 - WARNING - No faces in frame 105 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/salma_hayek_1.mp4
+2026-01-02 16:30:12,398 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:30:12,747 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:14,917 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:17,171 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:19,357 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:21,574 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:26,062 - WARNING - No faces in frame 173 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:32,937 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:35,304 - WARNING - No faces in frame 212 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:37,526 - INFO - Current time: 2026-01-02 16:30:37
+2026-01-02 16:30:39,699 - INFO - Current time: 2026-01-02 16:30:39
+2026-01-02 16:30:40,253 - INFO - Current time: 2026-01-02 16:30:40
+2026-01-02 16:30:43,519 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_1.mp4
+2026-01-02 16:30:43,746 - INFO - Current time: 2026-01-02 16:30:43
+2026-01-02 16:30:47,453 - WARNING - No faces in frame 260 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:48,228 - INFO - Current time: 2026-01-02 16:30:48
+2026-01-02 16:30:48,689 - INFO - Current time: 2026-01-02 16:30:48
+2026-01-02 16:30:48,901 - INFO - Current time: 2026-01-02 16:30:48
+2026-01-02 16:30:50,742 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:52,813 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:53,629 - INFO - Current time: 2026-01-02 16:30:53
+2026-01-02 16:30:55,344 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:56,124 - INFO - Current time: 2026-01-02 16:30:56
+2026-01-02 16:30:57,845 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:30:58,152 - INFO - Current time: 2026-01-02 16:30:58
+2026-01-02 16:30:58,423 - INFO - Current time: 2026-01-02 16:30:58
+2026-01-02 16:30:58,474 - INFO - Current time: 2026-01-02 16:30:58
+2026-01-02 16:30:58,483 - INFO - Current time: 2026-01-02 16:30:58
+2026-01-02 16:30:58,567 - INFO - Current time: 2026-01-02 16:30:58
+2026-01-02 16:31:00,173 - INFO - Current time: 2026-01-02 16:31:00
+2026-01-02 16:31:02,190 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/will_smith_3.mp4
+2026-01-02 16:31:04,322 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/will_smith_3.mp4
+2026-01-02 16:31:06,419 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/will_smith_3.mp4
+2026-01-02 16:31:06,427 - INFO - Current time: 2026-01-02 16:31:06
+2026-01-02 16:31:35,319 - INFO - Current time: 2026-01-02 16:31:35
+2026-01-02 16:31:35,652 - INFO - Current time: 2026-01-02 16:31:35
+2026-01-02 16:31:37,485 - INFO - Current time: 2026-01-02 16:31:37
+2026-01-02 16:31:38,203 - INFO - Current time: 2026-01-02 16:31:38
+2026-01-02 16:31:41,115 - INFO - Current time: 2026-01-02 16:31:41
+2026-01-02 16:31:41,269 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-ob/tian_yiming_3.mp4
+2026-01-02 16:31:41,273 - INFO - Current time: 2026-01-02 16:31:41
+2026-01-02 16:31:42,079 - INFO - Current time: 2026-01-02 16:31:42
+2026-01-02 16:31:42,647 - INFO - Current time: 2026-01-02 16:31:42
+2026-01-02 16:31:46,290 - INFO - Current time: 2026-01-02 16:31:46
+2026-01-02 16:31:47,202 - INFO - Current time: 2026-01-02 16:31:47
+2026-01-02 16:31:47,202 - INFO - Total time taken: 3.26 minutes
+2026-01-02 16:31:47,231 - INFO - 42 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real
+2026-01-02 16:31:53,517 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:01,285 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:04,004 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 16:32:04,542 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 16:32:05,937 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 16:32:06,609 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:07,239 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:07,992 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 16:32:08,301 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:09,227 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:11,956 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:13,748 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:15,453 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:17,310 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:19,089 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:19,286 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:20,735 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:22,440 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:25,257 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:27,764 - WARNING - No faces in frame 183 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:31,250 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:32:33,344 - WARNING - No faces in frame 192 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:35,372 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:39,353 - WARNING - No faces in frame 221 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:41,461 - WARNING - No faces in frame 231 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:49,427 - INFO - Current time: 2026-01-02 16:32:49
+2026-01-02 16:32:51,557 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:32:53,476 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 16:32:53,478 - INFO - Current time: 2026-01-02 16:32:53
+2026-01-02 16:32:54,088 - INFO - Current time: 2026-01-02 16:32:54
+2026-01-02 16:32:54,639 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:32:56,002 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 16:32:56,240 - INFO - Current time: 2026-01-02 16:32:56
+2026-01-02 16:32:56,755 - INFO - Current time: 2026-01-02 16:32:56
+2026-01-02 16:32:56,978 - INFO - Current time: 2026-01-02 16:32:56
+2026-01-02 16:32:57,647 - INFO - Current time: 2026-01-02 16:32:57
+2026-01-02 16:32:57,647 - INFO - Current time: 2026-01-02 16:32:57
+2026-01-02 16:32:59,519 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:32:59,965 - INFO - Current time: 2026-01-02 16:32:59
+2026-01-02 16:33:00,345 - INFO - Current time: 2026-01-02 16:33:00
+2026-01-02 16:33:00,706 - INFO - Current time: 2026-01-02 16:33:00
+2026-01-02 16:33:01,534 - INFO - Current time: 2026-01-02 16:33:01
+2026-01-02 16:33:01,536 - INFO - Current time: 2026-01-02 16:33:01
+2026-01-02 16:33:03,174 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:33:03,856 - INFO - Current time: 2026-01-02 16:33:03
+2026-01-02 16:33:06,534 - INFO - Current time: 2026-01-02 16:33:06
+2026-01-02 16:33:09,342 - INFO - Current time: 2026-01-02 16:33:09
+2026-01-02 16:33:10,986 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:13,233 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:15,583 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:17,355 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:33:17,733 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:20,043 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:21,081 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:33:22,420 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:26,770 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:28,158 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/0296bcc0fdd2a47380e798289dcc099f_1080x1920_30.mp4: [Errno 28] No space left on device
+2026-01-02 16:33:28,404 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:33:28,557 - INFO - Current time: 2026-01-02 16:33:28
+2026-01-02 16:33:28,601 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/e47c246f3c2f0f66eca1a08aea644c57_1080x1920_30.mp4
+2026-01-02 16:33:28,635 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/c67611cc32af5603f4f501e65b77c886_1080x1920_30.mp4: [Errno 28] No space left on device
+2026-01-02 16:33:28,636 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/a3f85462e2037076ac2b612dc701bba7_1080x1920_30.mp4: [Errno 28] No space left on device
+2026-01-02 16:33:28,842 - INFO - Current time: 2026-01-02 16:33:28
+2026-01-02 16:33:29,183 - INFO - Current time: 2026-01-02 16:33:29
+2026-01-02 16:33:29,403 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/ef8bffd0579e4c02b4d8bea44419c813_1920x1080_30.mp4: [Errno 28] No space left on device
+2026-01-02 16:33:29,601 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/1eec2811670a1dfa0f697d099b0dfcdb_1920x1080_30.mp4: [Errno 28] No space left on device: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/frames/1eec2811670a1dfa0f697d099b0dfcdb_1920x1080_30'
+2026-01-02 16:33:29,603 - INFO - Current time: 2026-01-02 16:33:29
+2026-01-02 16:33:30,061 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/3e7bd8b1e9bc081457559851a5012d14_1920x1080_30.mp4: [Errno 28] No space left on device: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/frames_wocropface/3e7bd8b1e9bc081457559851a5012d14_1920x1080_30'
+2026-01-02 16:33:30,062 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/6cb2bf5384212402d39fc2653df913b7_1920x1080_30.mp4: [Errno 28] No space left on device: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/frames_wocropface/6cb2bf5384212402d39fc2653df913b7_1920x1080_30'
+2026-01-02 16:33:30,062 - INFO - Current time: 2026-01-02 16:33:30
+2026-01-02 16:33:30,062 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/f72a8ac49cce8aac59171c3671e22b9b_1920x1080_30.mp4: [Errno 28] No space left on device
+2026-01-02 16:33:30,068 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/e9d9cee75745b4cc77e149448d8855d3_1080x1920_30.mp4: [Errno 28] No space left on device
+2026-01-02 16:33:30,725 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30.mp4: [Errno 28] No space left on device: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/frames_wocropface/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30'
+2026-01-02 16:33:30,726 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/8cbbea84e2cd12766791a12390569aaf_1920x1080_30.mp4: [Errno 28] No space left on device: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/frames_wocropface/8cbbea84e2cd12766791a12390569aaf_1920x1080_30'
+2026-01-02 16:33:30,729 - INFO - Current time: 2026-01-02 16:33:30
+2026-01-02 16:33:31,518 - ERROR - Error processing video /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/be19ce722a9e52e2613a6d8f775af82d_1920x1080_30.mp4: [Errno 28] No space left on device: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/frames_wocropface/be19ce722a9e52e2613a6d8f775af82d_1920x1080_30'
+2026-01-02 16:33:31,790 - INFO - Current2026-01-02 16:39:40,654 - INFO - 42 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake
+2026-01-02 16:40:31,521 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/salma_hayek_3.mp4
+2026-01-02 16:40:40,014 - INFO - Current time: 2026-01-02 16:40:40
+2026-01-02 16:40:44,009 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/arnold_schwarzenegger_2.mp4
+2026-01-02 16:40:47,596 - INFO - Current time: 2026-01-02 16:40:47
+2026-01-02 16:40:48,102 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 16:40:48,104 - INFO - Current time: 2026-01-02 16:40:48
+2026-01-02 16:40:48,257 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/nile_red_1.mp4
+2026-01-02 16:40:48,531 - INFO - Current time: 2026-01-02 16:40:48
+2026-01-02 16:40:50,516 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 16:40:50,898 - INFO - Current time: 2026-01-02 16:40:50
+2026-01-02 16:40:50,906 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th/nile_red_1.mp4
+2026-01-02 16:40:51,644 - INFO - Current time: 2026-01-02 16:40:51
+2026-01-02 16:40:51,652 - INFO - Current time: 2026-01-02 16:40:51
+2026-01-02 16:40:53,119 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:40:53,760 - INFO - Current time: 2026-01-02 16:40:53
+2026-01-02 16:40:54,191 - INFO - Current time: 2026-01-02 16:40:54
+2026-01-02 16:40:54,559 - INFO - Current time: 2026-01-02 16:40:54
+2026-01-02 16:40:55,360 - INFO - Current time: 2026-01-02 16:40:55
+2026-01-02 16:40:55,365 - INFO - Current time: 2026-01-02 16:40:55
+2026-01-02 16:40:57,078 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:40:57,641 - INFO - Current time: 2026-01-02 16:40:57
+2026-01-02 16:40:59,834 - INFO - Current time: 2026-01-02 16:40:59
+2026-01-02 16:40:59,834 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:00,282 - INFO - Current time: 2026-01-02 16:41:00
+2026-01-02 16:41:02,542 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:04,278 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/talyor_swift_2.mp4
+2026-01-02 16:41:04,700 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/salma_hayek_1.mp4
+2026-01-02 16:41:04,802 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:05,550 - INFO - Current time: 2026-01-02 16:41:05
+2026-01-02 16:41:05,696 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:07,531 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:07,639 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:11,092 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:12,065 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:12,837 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:14,272 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:14,491 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:16,198 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:16,438 - WARNING - No faces in frame 86 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:18,019 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:18,599 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:19,748 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:20,844 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:21,494 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 16:41:22,782 - WARNING - No faces in frame 105 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/salma_hayek_1.mp4
+2026-01-02 16:41:22,961 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:25,208 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:27,578 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:29,802 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:32,115 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:36,626 - WARNING - No faces in frame 173 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:43,614 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:45,918 - WARNING - No faces in frame 212 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:46,707 - INFO - Current time: 2026-01-02 16:41:46
+2026-01-02 16:41:49,461 - INFO - Current time: 2026-01-02 16:41:49
+2026-01-02 16:41:50,248 - INFO - Current time: 2026-01-02 16:41:50
+2026-01-02 16:41:53,035 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-bb/tian_yiming_1.mp4
+2026-01-02 16:41:53,259 - INFO - Current time: 2026-01-02 16:41:53
+2026-01-02 16:41:57,710 - WARNING - No faces in frame 260 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:41:57,862 - INFO - Current time: 2026-01-02 16:41:57
+2026-01-02 16:41:58,686 - INFO - Current time: 2026-01-02 16:41:58
+2026-01-02 16:42:00,290 - INFO - Current time: 2026-01-02 16:42:00
+2026-01-02 16:42:00,508 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:42:02,721 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:42:05,131 - INFO - Current time: 2026-01-02 16:42:05
+2026-01-02 16:42:05,281 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:42:07,233 - INFO - Current time: 2026-01-02 16:42:07
+2026-01-02 16:42:07,410 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 16:42:07,629 - INFO - Current time: 2026-01-02 16:42:07
+2026-01-02 16:42:07,775 - INFO - Current time: 2026-01-02 16:42:07
+2026-01-02 16:42:07,793 - INFO - Current time: 2026-01-02 16:42:07
+2026-01-02 16:42:09,234 - INFO - Current time: 2026-01-02 16:42:09
+2026-01-02 16:42:09,280 - INFO - Current time: 2026-01-02 16:42:09
+2026-01-02 16:42:11,711 - INFO - Current time: 2026-01-02 16:42:11
+2026-01-02 16:42:13,638 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/will_smith_3.mp4
+2026-01-02 16:42:15,469 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/will_smith_3.mp4
+2026-01-02 16:42:17,366 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-m/will_smith_3.mp4
+2026-01-02 16:42:17,371 - INFO - Current time: 2026-01-02 16:42:17
+2026-01-02 16:42:44,189 - INFO - Current time: 2026-01-02 16:42:44
+2026-01-02 16:42:44,530 - INFO - Current time: 2026-01-02 16:42:44
+2026-01-02 16:42:46,670 - INFO - Current time: 2026-01-02 16:42:46
+2026-01-02 16:42:47,603 - INFO - Current time: 2026-01-02 16:42:47
+2026-01-02 16:42:51,746 - INFO - Current time: 2026-01-02 16:42:51
+2026-01-02 16:42:51,874 - INFO - Current time: 2026-01-02 16:42:51
+2026-01-02 16:42:52,784 - INFO - Current time: 2026-01-02 16:42:52
+2026-01-02 16:42:53,551 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake/th-ob/tian_yiming_3.mp4
+2026-01-02 16:42:53,560 - INFO - Current time: 2026-01-02 16:42:53
+2026-01-02 16:42:55,304 - INFO - Current time: 2026-01-02 16:42:55
+2026-01-02 16:42:59,096 - INFO - Current time: 2026-01-02 16:42:59
+2026-01-02 16:42:59,097 - INFO - Total time taken: 3.31 minutes
+2026-01-02 16:42:59,124 - INFO - 42 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real
+2026-01-02 16:43:05,473 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:13,695 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:16,502 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 16:43:16,701 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 16:43:18,452 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 16:43:19,199 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:19,614 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:20,475 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 16:43:20,933 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:21,708 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:24,623 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:26,327 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:28,034 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:29,767 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:31,538 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:31,554 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:33,253 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:35,129 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:37,455 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:40,347 - WARNING - No faces in frame 183 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:43,913 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 16:43:45,635 - WARNING - No faces in frame 192 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:47,562 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:51,517 - WARNING - No faces in frame 221 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:43:53,630 - WARNING - No faces in frame 231 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:44:02,720 - INFO - Current time: 2026-01-02 16:44:02
+2026-01-02 16:44:04,193 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 16:44:06,518 - INFO - Current time: 2026-01-02 16:44:06
+2026-01-02 16:44:06,519 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 16:44:07,284 - INFO - Current time: 2026-01-02 16:44:07
+2026-01-02 16:44:07,440 - INFO - Current time: 2026-01-02 16:44:07
+2026-01-02 16:44:08,266 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:44:09,472 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 16:44:09,482 - INFO - Current time: 2026-01-02 16:44:09
+2026-01-02 16:44:09,994 - INFO - Current time: 2026-01-02 16:44:09
+2026-01-02 16:44:10,238 - INFO - Current time: 2026-01-02 16:44:10
+2026-01-02 16:44:10,726 - INFO - Current time: 2026-01-02 16:44:10
+2026-01-02 16:44:12,762 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:44:12,768 - INFO - Current time: 2026-01-02 16:44:12
+2026-01-02 16:44:13,401 - INFO - Current time: 2026-01-02 16:44:13
+2026-01-02 16:44:14,369 - INFO - Current time: 2026-01-02 16:44:14
+2026-01-02 16:44:14,372 - INFO - Current time: 2026-01-02 16:44:14
+2026-01-02 16:44:14,373 - INFO - Current time: 2026-01-02 16:44:14
+2026-01-02 16:44:16,041 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:44:16,673 - INFO - Current time: 2026-01-02 16:44:16
+2026-01-02 16:44:17,196 - INFO - Current time: 2026-01-02 16:44:17
+2026-01-02 16:44:22,488 - INFO - Current time: 2026-01-02 16:44:22
+2026-01-02 16:44:23,946 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:26,049 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:28,277 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:30,406 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:30,538 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:44:32,780 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:34,483 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:44:35,027 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:39,318 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:41,705 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:41,766 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/e47c246f3c2f0f66eca1a08aea644c57_1080x1920_30.mp4
+2026-01-02 16:44:43,778 - WARNING - No faces in frame 86 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:46,038 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:46,219 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/e47c246f3c2f0f66eca1a08aea644c57_1080x1920_30.mp4
+2026-01-02 16:44:48,374 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:49,814 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/e9d9cee75745b4cc77e149448d8855d3_1080x1920_30.mp4
+2026-01-02 16:44:50,522 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:51,451 - WARNING - No faces in frame 163 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/29bc4735c59b78526cb798df4a84dfb0_1080x1920_30.mp4
+2026-01-02 16:44:52,806 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:55,061 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:57,309 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:44:59,647 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:04,418 - WARNING - No faces in frame 173 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:08,368 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 16:45:10,494 - INFO - Current time: 2026-01-02 16:45:10
+2026-01-02 16:45:10,980 - INFO - Current time: 2026-01-02 16:45:10
+2026-01-02 16:45:10,990 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:11,580 - INFO - Current time: 2026-01-02 16:45:11
+2026-01-02 16:45:13,538 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/ef8bffd0579e4c02b4d8bea44419c813_1920x1080_30.mp4
+2026-01-02 16:45:13,763 - WARNING - No faces in frame 212 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:13,910 - INFO - Current time: 2026-01-02 16:45:13
+2026-01-02 16:45:15,939 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-bb/ef8bffd0579e4c02b4d8bea44419c813_1920x1080_30.mp4
+2026-01-02 16:45:18,140 - INFO - Current time: 2026-01-02 16:45:18
+2026-01-02 16:45:18,549 - INFO - Current time: 2026-01-02 16:45:18
+2026-01-02 16:45:20,771 - INFO - Current time: 2026-01-02 16:45:20
+2026-01-02 16:45:21,195 - INFO - Current time: 2026-01-02 16:45:21
+2026-01-02 16:45:21,526 - INFO - Current time: 2026-01-02 16:45:21
+2026-01-02 16:45:24,119 - INFO - Current time: 2026-01-02 16:45:24
+2026-01-02 16:45:26,118 - INFO - Current time: 2026-01-02 16:45:26
+2026-01-02 16:45:26,545 - WARNING - No faces in frame 260 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:26,549 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/c67611cc32af5603f4f501e65b77c886_1080x1920_30.mp4
+2026-01-02 16:45:28,228 - INFO - Current time: 2026-01-02 16:45:28
+2026-01-02 16:45:28,595 - INFO - Current time: 2026-01-02 16:45:28
+2026-01-02 16:45:28,610 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:28,630 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/c67611cc32af5603f4f501e65b77c886_1080x1920_30.mp4
+2026-01-02 16:45:28,636 - INFO - Current time: 2026-01-02 16:45:28
+2026-01-02 16:45:30,508 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:30,593 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/e9d9cee75745b4cc77e149448d8855d3_1080x1920_30.mp4
+2026-01-02 16:45:30,600 - INFO - Current time: 2026-01-02 16:45:30
+2026-01-02 16:45:32,008 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:33,703 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 16:45:33,710 - INFO - Current time: 2026-01-02 16:45:33
+2026-01-02 16:45:48,643 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/f7f3006b0dd30837800512a787c5ea51_1920x1080_30.mp4
+2026-01-02 16:45:49,485 - WARNING - No faces in frame 163 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30.mp4
+2026-01-02 16:46:03,493 - WARNING - No faces in frame 250 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30.mp4
+2026-01-02 16:46:07,216 - INFO - Current time: 2026-01-02 16:46:07
+2026-01-02 16:46:07,551 - INFO - Current time: 2026-01-02 16:46:07
+2026-01-02 16:46:09,766 - INFO - Current time: 2026-01-02 16:46:09
+2026-01-02 16:46:10,372 - INFO - Current time: 2026-01-02 16:46:10
+2026-01-02 16:46:10,430 - INFO - Current time: 2026-01-02 16:46:10
+2026-01-02 16:46:10,786 - INFO - Current time: 2026-01-02 16:46:10
+2026-01-02 16:46:11,419 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/real/th-ob/be19ce722a9e52e2613a6d8f775af82d_1920x1080_30.mp4
+2026-01-02 16:46:11,423 - INFO - Current time: 2026-01-02 16:46:11
+2026-01-02 16:46:11,738 - INFO - Current time: 2026-01-02 16:46:11
+2026-01-02 16:46:13,750 - INFO - Current time: 2026-01-02 16:46:13
+2026-01-02 16:46:14,008 - INFO - Current time: 2026-01-02 16:46:14
+2026-01-02 16:46:14,009 - INFO - Total time taken: 3.25 minutes
+2026-01-02 16:46:14,089 - INFO - Face cropping complete!
+2026-01-02 17:17:25,489 - ERROR - Sub Dataset path does not exist: /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/fake
+2026-01-02 17:18:35,392 - ERROR - Sub Dataset path does not exist: /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/train/fake
+2026-01-02 17:18:45,583 - INFO - 37 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake
+2026-01-02 17:19:35,739 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th/salma_hayek_3.mp4
+2026-01-02 17:19:45,044 - INFO - Current time: 2026-01-02 17:19:45
+2026-01-02 17:19:49,240 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th/arnold_schwarzenegger_2.mp4
+2026-01-02 17:19:51,327 - INFO - Current time: 2026-01-02 17:19:51
+2026-01-02 17:19:52,917 - INFO - Current time: 2026-01-02 17:19:52
+2026-01-02 17:19:53,587 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th/nile_red_1.mp4
+2026-01-02 17:19:53,587 - INFO - Current time: 2026-01-02 17:19:53
+2026-01-02 17:19:53,733 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 17:19:53,962 - INFO - Current time: 2026-01-02 17:19:53
+2026-01-02 17:19:55,339 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:19:56,147 - INFO - Current time: 2026-01-02 17:19:56
+2026-01-02 17:19:56,154 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 17:19:56,299 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th/nile_red_1.mp4
+2026-01-02 17:19:56,537 - INFO - Current time: 2026-01-02 17:19:56
+2026-01-02 17:19:57,109 - INFO - Current time: 2026-01-02 17:19:57
+2026-01-02 17:19:58,052 - INFO - Current time: 2026-01-02 17:19:58
+2026-01-02 17:19:58,056 - INFO - Current time: 2026-01-02 17:19:58
+2026-01-02 17:19:58,205 - INFO - Current time: 2026-01-02 17:19:58
+2026-01-02 17:19:59,485 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:00,472 - INFO - Current time: 2026-01-02 17:20:00
+2026-01-02 17:20:00,847 - INFO - Current time: 2026-01-02 17:20:00
+2026-01-02 17:20:02,536 - INFO - Current time: 2026-01-02 17:20:02
+2026-01-02 17:20:02,544 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:03,076 - INFO - Current time: 2026-01-02 17:20:03
+2026-01-02 17:20:05,193 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:05,346 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/talyor_swift_2.mp4
+2026-01-02 17:20:07,238 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/salma_hayek_1.mp4
+2026-01-02 17:20:07,486 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:08,339 - INFO - Current time: 2026-01-02 17:20:08
+2026-01-02 17:20:10,038 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:14,383 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:16,646 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:18,876 - WARNING - No faces in frame 86 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:21,122 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:23,479 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:24,931 - WARNING - No faces in frame 105 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/salma_hayek_1.mp4
+2026-01-02 17:20:25,602 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:27,826 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:30,142 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:32,251 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:34,486 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:38,826 - WARNING - No faces in frame 173 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:45,555 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:46,468 - INFO - Current time: 2026-01-02 17:20:46
+2026-01-02 17:20:48,049 - WARNING - No faces in frame 212 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:54,244 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-bb/tian_yiming_1.mp4
+2026-01-02 17:20:54,465 - INFO - Current time: 2026-01-02 17:20:54
+2026-01-02 17:20:59,067 - INFO - Current time: 2026-01-02 17:20:59
+2026-01-02 17:20:59,067 - WARNING - No faces in frame 260 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:20:59,541 - INFO - Current time: 2026-01-02 17:20:59
+2026-01-02 17:21:01,854 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:21:04,022 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:21:04,169 - INFO - Current time: 2026-01-02 17:21:04
+2026-01-02 17:21:06,474 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:21:08,454 - INFO - Current time: 2026-01-02 17:21:08
+2026-01-02 17:21:08,533 - INFO - Current time: 2026-01-02 17:21:08
+2026-01-02 17:21:08,586 - INFO - Current time: 2026-01-02 17:21:08
+2026-01-02 17:21:08,723 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:21:08,728 - INFO - Current time: 2026-01-02 17:21:08
+2026-01-02 17:21:08,820 - INFO - Current time: 2026-01-02 17:21:08
+2026-01-02 17:21:09,030 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/will_smith_3.mp4
+2026-01-02 17:21:09,371 - INFO - Current time: 2026-01-02 17:21:09
+2026-01-02 17:21:10,122 - INFO - Current time: 2026-01-02 17:21:10
+2026-01-02 17:21:10,266 - INFO - Current time: 2026-01-02 17:21:10
+2026-01-02 17:21:10,282 - INFO - Current time: 2026-01-02 17:21:10
+2026-01-02 17:21:10,594 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/will_smith_3.mp4
+2026-01-02 17:21:12,073 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-m/will_smith_3.mp4
+2026-01-02 17:21:12,078 - INFO - Current time: 2026-01-02 17:21:12
+2026-01-02 17:21:15,441 - INFO - Current time: 2026-01-02 17:21:15
+2026-01-02 17:21:38,732 - INFO - Current time: 2026-01-02 17:21:38
+2026-01-02 17:21:42,876 - INFO - Current time: 2026-01-02 17:21:42
+2026-01-02 17:21:43,250 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/fake/th-ob/tian_yiming_3.mp4
+2026-01-02 17:21:43,254 - INFO - Current time: 2026-01-02 17:21:43
+2026-01-02 17:21:46,742 - INFO - Current time: 2026-01-02 17:21:46
+2026-01-02 17:21:47,000 - INFO - Current time: 2026-01-02 17:21:47
+2026-01-02 17:21:47,000 - INFO - Total time taken: 3.02 minutes
+2026-01-02 17:21:47,032 - INFO - 37 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real
+2026-01-02 17:21:53,246 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:21:54,503 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:21:57,974 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:21:59,744 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:22:01,300 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:03,845 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 17:22:04,210 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 17:22:05,783 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 17:22:07,319 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:07,819 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 17:22:09,377 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:13,049 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:22:16,796 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:22:19,563 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:25,587 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:33,579 - WARNING - No faces in frame 192 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:35,520 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:39,499 - WARNING - No faces in frame 221 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:41,513 - WARNING - No faces in frame 231 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:51,334 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:22:51,408 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:22:53,800 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 17:22:53,807 - INFO - Current time: 2026-01-02 17:22:53
+2026-01-02 17:22:54,299 - INFO - Current time: 2026-01-02 17:22:54
+2026-01-02 17:22:54,912 - INFO - Current time: 2026-01-02 17:22:54
+2026-01-02 17:22:54,913 - INFO - Current time: 2026-01-02 17:22:54
+2026-01-02 17:22:55,289 - INFO - Current time: 2026-01-02 17:22:55
+2026-01-02 17:22:57,452 - INFO - Current time: 2026-01-02 17:22:57
+2026-01-02 17:22:57,454 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 17:22:57,848 - INFO - Current time: 2026-01-02 17:22:57
+2026-01-02 17:22:58,234 - INFO - Current time: 2026-01-02 17:22:58
+2026-01-02 17:22:58,921 - INFO - Current time: 2026-01-02 17:22:58
+2026-01-02 17:22:59,079 - INFO - Current time: 2026-01-02 17:22:59
+2026-01-02 17:22:59,349 - INFO - Current time: 2026-01-02 17:22:59
+2026-01-02 17:23:01,337 - INFO - Current time: 2026-01-02 17:23:01
+2026-01-02 17:23:01,764 - INFO - Current time: 2026-01-02 17:23:01
+2026-01-02 17:23:02,271 - INFO - Current time: 2026-01-02 17:23:02
+2026-01-02 17:23:03,110 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:04,473 - INFO - Current time: 2026-01-02 17:23:04
+2026-01-02 17:23:04,999 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:07,195 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:09,331 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:11,543 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:12,007 - INFO - Current time: 2026-01-02 17:23:12
+2026-01-02 17:23:14,191 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:18,575 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:20,884 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:23,044 - WARNING - No faces in frame 86 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:25,362 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:26,495 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/e47c246f3c2f0f66eca1a08aea644c57_1080x1920_30.mp4
+2026-01-02 17:23:27,681 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:29,858 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:30,801 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/e47c246f3c2f0f66eca1a08aea644c57_1080x1920_30.mp4
+2026-01-02 17:23:32,040 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:34,113 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/e9d9cee75745b4cc77e149448d8855d3_1080x1920_30.mp4
+2026-01-02 17:23:34,358 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:34,489 - WARNING - No faces in frame 163 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/29bc4735c59b78526cb798df4a84dfb0_1080x1920_30.mp4
+2026-01-02 17:23:36,493 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:38,734 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:43,269 - WARNING - No faces in frame 173 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:50,048 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:52,225 - WARNING - No faces in frame 212 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:23:56,068 - INFO - Current time: 2026-01-02 17:23:56
+2026-01-02 17:23:58,453 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/ef8bffd0579e4c02b4d8bea44419c813_1920x1080_30.mp4
+2026-01-02 17:24:00,597 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-bb/ef8bffd0579e4c02b4d8bea44419c813_1920x1080_30.mp4
+2026-01-02 17:24:01,707 - INFO - Current time: 2026-01-02 17:24:01
+2026-01-02 17:24:02,147 - INFO - Current time: 2026-01-02 17:24:02
+2026-01-02 17:24:02,537 - INFO - Current time: 2026-01-02 17:24:02
+2026-01-02 17:24:04,575 - WARNING - No faces in frame 260 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:24:05,139 - INFO - Current time: 2026-01-02 17:24:05
+2026-01-02 17:24:05,358 - INFO - Current time: 2026-01-02 17:24:05
+2026-01-02 17:24:07,176 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:24:08,750 - INFO - Current time: 2026-01-02 17:24:08
+2026-01-02 17:24:09,243 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:24:09,248 - INFO - Current time: 2026-01-02 17:24:09
+2026-01-02 17:24:10,739 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/c67611cc32af5603f4f501e65b77c886_1080x1920_30.mp4
+2026-01-02 17:24:10,798 - INFO - Current time: 2026-01-02 17:24:10
+2026-01-02 17:24:10,957 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:24:10,962 - INFO - Current time: 2026-01-02 17:24:10
+2026-01-02 17:24:11,209 - INFO - Current time: 2026-01-02 17:24:11
+2026-01-02 17:24:11,429 - INFO - Current time: 2026-01-02 17:24:11
+2026-01-02 17:24:11,965 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/e9d9cee75745b4cc77e149448d8855d3_1080x1920_30.mp4
+2026-01-02 17:24:11,970 - INFO - Current time: 2026-01-02 17:24:11
+2026-01-02 17:24:12,311 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/c67611cc32af5603f4f501e65b77c886_1080x1920_30.mp4
+2026-01-02 17:24:12,316 - INFO - Current time: 2026-01-02 17:24:12
+2026-01-02 17:24:12,498 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:24:12,506 - INFO - Current time: 2026-01-02 17:24:12
+2026-01-02 17:24:17,584 - INFO - Current time: 2026-01-02 17:24:17
+2026-01-02 17:24:26,139 - WARNING - No faces in frame 163 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-ob/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30.mp4
+2026-01-02 17:24:27,057 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-ob/f7f3006b0dd30837800512a787c5ea51_1920x1080_30.mp4
+2026-01-02 17:24:38,265 - WARNING - No faces in frame 250 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-ob/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30.mp4
+2026-01-02 17:24:45,056 - INFO - Current time: 2026-01-02 17:24:45
+2026-01-02 17:24:45,670 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF/train/real/th-ob/be19ce722a9e52e2613a6d8f775af82d_1920x1080_30.mp4
+2026-01-02 17:24:45,675 - INFO - Current time: 2026-01-02 17:24:45
+2026-01-02 17:24:46,660 - INFO - Current time: 2026-01-02 17:24:46
+2026-01-02 17:24:47,167 - INFO - Current time: 2026-01-02 17:24:47
+2026-01-02 17:24:49,664 - INFO - Current time: 2026-01-02 17:24:49
+2026-01-02 17:24:49,665 - INFO - Total time taken: 3.04 minutes
+2026-01-02 17:24:49,727 - INFO - 5 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake
+2026-01-02 17:24:59,776 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:00,845 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:02,968 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:04,023 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:05,045 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:06,120 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:07,196 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:08,227 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:09,295 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:25:25,801 - INFO - Current time: 2026-01-02 17:25:25
+2026-01-02 17:25:31,960 - INFO - Current time: 2026-01-02 17:25:31
+2026-01-02 17:25:33,116 - INFO - Current time: 2026-01-02 17:25:33
+2026-01-02 17:25:34,039 - INFO - Current time: 2026-01-02 17:25:34
+2026-01-02 17:25:36,480 - INFO - Current time: 2026-01-02 17:25:36
+2026-01-02 17:25:36,481 - INFO - Total time taken: 0.78 minutes
+2026-01-02 17:25:36,487 - INFO - 5 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real
+2026-01-02 17:25:46,517 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:47,584 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:49,694 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:50,753 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:51,776 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:52,839 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:53,905 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:54,928 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:55,993 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:25:59,263 - WARNING - No faces in frame 183 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:26:01,412 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_test/test/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:26:12,476 - INFO - Current time: 2026-01-02 17:26:12
+2026-01-02 17:26:17,682 - INFO - Current time: 2026-01-02 17:26:17
+2026-01-02 17:26:19,982 - INFO - Current time: 2026-01-02 17:26:19
+2026-01-02 17:26:20,472 - INFO - Current time: 2026-01-02 17:26:20
+2026-01-02 17:26:22,891 - INFO - Current time: 2026-01-02 17:26:22
+2026-01-02 17:26:22,892 - INFO - Total time taken: 0.77 minutes
+2026-01-02 17:26:22,907 - INFO - Face cropping complete!
+2026-01-02 17:37:09,535 - INFO - 42 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake
+2026-01-02 17:37:59,682 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th/salma_hayek_3.mp4
+2026-01-02 17:38:09,367 - INFO - Current time: 2026-01-02 17:38:09
+2026-01-02 17:38:12,750 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th/arnold_schwarzenegger_2.mp4
+2026-01-02 17:38:15,333 - INFO - Current time: 2026-01-02 17:38:15
+2026-01-02 17:38:16,086 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th/nile_red_1.mp4
+2026-01-02 17:38:17,008 - INFO - Current time: 2026-01-02 17:38:17
+2026-01-02 17:38:17,474 - INFO - Current time: 2026-01-02 17:38:17
+2026-01-02 17:38:17,476 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 17:38:17,923 - INFO - Current time: 2026-01-02 17:38:17
+2026-01-02 17:38:19,146 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th/nile_red_1.mp4
+2026-01-02 17:38:19,438 - INFO - Current time: 2026-01-02 17:38:19
+2026-01-02 17:38:19,739 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/nicole_kidman_3.mp4
+2026-01-02 17:38:20,062 - INFO - Current time: 2026-01-02 17:38:20
+2026-01-02 17:38:20,458 - INFO - Current time: 2026-01-02 17:38:20
+2026-01-02 17:38:20,819 - INFO - Current time: 2026-01-02 17:38:20
+2026-01-02 17:38:21,324 - INFO - Current time: 2026-01-02 17:38:21
+2026-01-02 17:38:21,562 - INFO - Current time: 2026-01-02 17:38:21
+2026-01-02 17:38:21,867 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:23,748 - INFO - Current time: 2026-01-02 17:38:23
+2026-01-02 17:38:23,904 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:24,197 - INFO - Current time: 2026-01-02 17:38:24
+2026-01-02 17:38:26,622 - INFO - Current time: 2026-01-02 17:38:26
+2026-01-02 17:38:26,622 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:29,122 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:29,270 - INFO - Current time: 2026-01-02 17:38:29
+2026-01-02 17:38:30,160 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/talyor_swift_2.mp4
+2026-01-02 17:38:31,093 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/salma_hayek_1.mp4
+2026-01-02 17:38:31,571 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:33,833 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:34,396 - INFO - Current time: 2026-01-02 17:38:34
+2026-01-02 17:38:34,547 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:36,443 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:38,728 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:39,868 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:41,023 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:41,590 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:43,204 - WARNING - No faces in frame 86 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:43,330 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:44,988 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:45,470 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:46,780 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:47,746 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:48,427 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:48,630 - WARNING - No faces in frame 105 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/salma_hayek_1.mp4
+2026-01-02 17:38:49,883 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:50,175 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_2.mp4
+2026-01-02 17:38:52,166 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:54,449 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:56,577 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:38:58,937 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:03,406 - WARNING - No faces in frame 173 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:10,214 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:12,507 - WARNING - No faces in frame 212 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:15,752 - INFO - Current time: 2026-01-02 17:39:15
+2026-01-02 17:39:17,727 - INFO - Current time: 2026-01-02 17:39:17
+2026-01-02 17:39:18,162 - INFO - Current time: 2026-01-02 17:39:18
+2026-01-02 17:39:20,175 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-bb/tian_yiming_1.mp4
+2026-01-02 17:39:20,402 - INFO - Current time: 2026-01-02 17:39:20
+2026-01-02 17:39:24,780 - INFO - Current time: 2026-01-02 17:39:24
+2026-01-02 17:39:25,017 - WARNING - No faces in frame 260 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:25,292 - INFO - Current time: 2026-01-02 17:39:25
+2026-01-02 17:39:27,648 - INFO - Current time: 2026-01-02 17:39:27
+2026-01-02 17:39:27,653 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:29,954 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:32,104 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:32,110 - INFO - Current time: 2026-01-02 17:39:32
+2026-01-02 17:39:33,939 - INFO - Current time: 2026-01-02 17:39:33
+2026-01-02 17:39:34,430 - INFO - Current time: 2026-01-02 17:39:34
+2026-01-02 17:39:34,432 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/anna_taylor_joy_2.mp4
+2026-01-02 17:39:34,591 - INFO - Current time: 2026-01-02 17:39:34
+2026-01-02 17:39:34,652 - INFO - Current time: 2026-01-02 17:39:34
+2026-01-02 17:39:34,653 - INFO - Current time: 2026-01-02 17:39:34
+2026-01-02 17:39:34,662 - INFO - Current time: 2026-01-02 17:39:34
+2026-01-02 17:39:37,932 - INFO - Current time: 2026-01-02 17:39:37
+2026-01-02 17:39:42,015 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/will_smith_3.mp4
+2026-01-02 17:39:43,732 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/will_smith_3.mp4
+2026-01-02 17:39:45,539 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-m/will_smith_3.mp4
+2026-01-02 17:39:45,545 - INFO - Current time: 2026-01-02 17:39:45
+2026-01-02 17:40:13,662 - INFO - Current time: 2026-01-02 17:40:13
+2026-01-02 17:40:13,914 - INFO - Current time: 2026-01-02 17:40:13
+2026-01-02 17:40:14,193 - INFO - Current time: 2026-01-02 17:40:14
+2026-01-02 17:40:15,041 - INFO - Current time: 2026-01-02 17:40:15
+2026-01-02 17:40:17,510 - INFO - Current time: 2026-01-02 17:40:17
+2026-01-02 17:40:20,105 - INFO - Current time: 2026-01-02 17:40:20
+2026-01-02 17:40:20,876 - INFO - Current time: 2026-01-02 17:40:20
+2026-01-02 17:40:21,373 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/fake/th-ob/tian_yiming_3.mp4
+2026-01-02 17:40:21,377 - INFO - Current time: 2026-01-02 17:40:21
+2026-01-02 17:40:22,836 - INFO - Current time: 2026-01-02 17:40:22
+2026-01-02 17:40:25,079 - INFO - Current time: 2026-01-02 17:40:25
+2026-01-02 17:40:25,079 - INFO - Total time taken: 3.26 minutes
+2026-01-02 17:40:25,122 - INFO - 42 videos found in /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real
+2026-01-02 17:40:32,277 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:40:40,348 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:40:42,209 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 17:40:43,651 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 17:40:44,048 - WARNING - No faces in frame 57 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 17:40:44,726 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:46,045 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/9bd3195d97edad5f200b325825dbb729_1920x1080_30.mp4
+2026-01-02 17:40:46,382 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:40:46,489 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:48,494 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:40:49,988 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:51,674 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:53,291 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:55,114 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:57,025 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:58,691 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:40:58,798 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:41:00,485 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:41:04,889 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:41:05,758 - WARNING - No faces in frame 183 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:41:09,285 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/c3089ec3080756f925b5b83fb66af24c_1920x1080_30.mp4
+2026-01-02 17:41:12,933 - WARNING - No faces in frame 192 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:41:15,006 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:41:19,201 - WARNING - No faces in frame 221 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:41:21,276 - WARNING - No faces in frame 231 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:41:27,604 - INFO - Current time: 2026-01-02 17:41:27
+2026-01-02 17:41:31,733 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/db623c6fff8ffffa6615170d6f8cbfd7_1920x1080_30.mp4
+2026-01-02 17:41:32,036 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 17:41:32,036 - INFO - Current time: 2026-01-02 17:41:32
+2026-01-02 17:41:32,443 - INFO - Current time: 2026-01-02 17:41:32
+2026-01-02 17:41:32,808 - INFO - Current time: 2026-01-02 17:41:32
+2026-01-02 17:41:34,091 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:41:34,840 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th/31ce85afe440564f525a418ec16340bc_1920x1080_30.mp4
+2026-01-02 17:41:35,186 - INFO - Current time: 2026-01-02 17:41:35
+2026-01-02 17:41:35,478 - INFO - Current time: 2026-01-02 17:41:35
+2026-01-02 17:41:35,801 - INFO - Current time: 2026-01-02 17:41:35
+2026-01-02 17:41:36,250 - INFO - Current time: 2026-01-02 17:41:36
+2026-01-02 17:41:38,122 - INFO - Current time: 2026-01-02 17:41:38
+2026-01-02 17:41:38,284 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:41:38,743 - INFO - Current time: 2026-01-02 17:41:38
+2026-01-02 17:41:39,750 - INFO - Current time: 2026-01-02 17:41:39
+2026-01-02 17:41:39,751 - INFO - Current time: 2026-01-02 17:41:39
+2026-01-02 17:41:39,761 - INFO - Current time: 2026-01-02 17:41:39
+2026-01-02 17:41:41,501 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:41:42,166 - INFO - Current time: 2026-01-02 17:41:42
+2026-01-02 17:41:42,595 - INFO - Current time: 2026-01-02 17:41:42
+2026-01-02 17:41:50,048 - INFO - Current time: 2026-01-02 17:41:50
+2026-01-02 17:41:51,515 - WARNING - No faces in frame 0 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:41:53,687 - WARNING - No faces in frame 9 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:41:55,950 - WARNING - No faces in frame 19 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:41:56,168 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:41:58,050 - WARNING - No faces in frame 28 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:00,064 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:42:00,335 - WARNING - No faces in frame 38 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:02,697 - WARNING - No faces in frame 48 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:07,098 - WARNING - No faces in frame 67 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:08,055 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/e47c246f3c2f0f66eca1a08aea644c57_1080x1920_30.mp4
+2026-01-02 17:42:09,325 - WARNING - No faces in frame 77 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:11,394 - WARNING - No faces in frame 86 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:12,404 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/e47c246f3c2f0f66eca1a08aea644c57_1080x1920_30.mp4
+2026-01-02 17:42:13,627 - WARNING - No faces in frame 96 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:15,504 - WARNING - No faces in frame 163 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/29bc4735c59b78526cb798df4a84dfb0_1080x1920_30.mp4
+2026-01-02 17:42:15,821 - WARNING - No faces in frame 106 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:15,970 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/e9d9cee75745b4cc77e149448d8855d3_1080x1920_30.mp4
+2026-01-02 17:42:18,020 - WARNING - No faces in frame 115 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:20,301 - WARNING - No faces in frame 125 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:22,649 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:24,743 - WARNING - No faces in frame 144 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:27,033 - WARNING - No faces in frame 154 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:31,508 - WARNING - No faces in frame 173 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:34,491 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/dd5599c094537cb9fd32f33f43c06f87_1920x1080_30.mp4
+2026-01-02 17:42:35,271 - INFO - Current time: 2026-01-02 17:42:35
+2026-01-02 17:42:36,088 - INFO - Current time: 2026-01-02 17:42:36
+2026-01-02 17:42:36,792 - INFO - Current time: 2026-01-02 17:42:36
+2026-01-02 17:42:37,082 - INFO - Current time: 2026-01-02 17:42:37
+2026-01-02 17:42:39,140 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/ef8bffd0579e4c02b4d8bea44419c813_1920x1080_30.mp4
+2026-01-02 17:42:39,177 - WARNING - No faces in frame 202 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:41,154 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-bb/ef8bffd0579e4c02b4d8bea44419c813_1920x1080_30.mp4
+2026-01-02 17:42:41,521 - WARNING - No faces in frame 212 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:43,075 - INFO - Current time: 2026-01-02 17:42:43
+2026-01-02 17:42:45,256 - INFO - Current time: 2026-01-02 17:42:45
+2026-01-02 17:42:45,632 - INFO - Current time: 2026-01-02 17:42:45
+2026-01-02 17:42:45,990 - INFO - Current time: 2026-01-02 17:42:45
+2026-01-02 17:42:46,384 - INFO - Current time: 2026-01-02 17:42:46
+2026-01-02 17:42:47,355 - INFO - Current time: 2026-01-02 17:42:47
+2026-01-02 17:42:48,803 - INFO - Current time: 2026-01-02 17:42:48
+2026-01-02 17:42:51,113 - INFO - Current time: 2026-01-02 17:42:51
+2026-01-02 17:42:52,074 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/c67611cc32af5603f4f501e65b77c886_1080x1920_30.mp4
+2026-01-02 17:42:52,591 - INFO - Current time: 2026-01-02 17:42:52
+2026-01-02 17:42:53,172 - WARNING - No faces in frame 260 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:54,047 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/c67611cc32af5603f4f501e65b77c886_1080x1920_30.mp4
+2026-01-02 17:42:54,058 - INFO - Current time: 2026-01-02 17:42:54
+2026-01-02 17:42:54,924 - WARNING - No faces in frame 270 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:54,963 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/e9d9cee75745b4cc77e149448d8855d3_1080x1920_30.mp4
+2026-01-02 17:42:54,969 - INFO - Current time: 2026-01-02 17:42:54
+2026-01-02 17:42:56,787 - WARNING - No faces in frame 279 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:42:58,619 - WARNING - No faces in frame 289 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:43:00,426 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-m/fd3202c6d0436d7ed3b479bc00b045db_1080x1920_30.mp4
+2026-01-02 17:43:00,432 - INFO - Current time: 2026-01-02 17:43:00
+2026-01-02 17:43:11,889 - WARNING - No faces in frame 135 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-ob/f7f3006b0dd30837800512a787c5ea51_1920x1080_30.mp4
+2026-01-02 17:43:14,994 - WARNING - No faces in frame 163 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-ob/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30.mp4
+2026-01-02 17:43:29,492 - WARNING - No faces in frame 250 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-ob/a4ea08e72606fb7ebd4347d79262823f_1920x1080_30.mp4
+2026-01-02 17:43:31,973 - INFO - Current time: 2026-01-02 17:43:31
+2026-01-02 17:43:32,027 - INFO - Current time: 2026-01-02 17:43:32
+2026-01-02 17:43:32,314 - INFO - Current time: 2026-01-02 17:43:32
+2026-01-02 17:43:32,931 - INFO - Current time: 2026-01-02 17:43:32
+2026-01-02 17:43:35,847 - WARNING - No faces in frame 299 of /home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/ConfDF_all/real/th-ob/be19ce722a9e52e2613a6d8f775af82d_1920x1080_30.mp4
+2026-01-02 17:43:35,852 - INFO - Current time: 2026-01-02 17:43:35
+2026-01-02 17:43:36,608 - INFO - Current time: 2026-01-02 17:43:36
+2026-01-02 17:43:36,616 - INFO - Current time: 2026-01-02 17:43:36
+2026-01-02 17:43:36,954 - INFO - Current time: 2026-01-02 17:43:36
+2026-01-02 17:43:36,979 - INFO - Current time: 2026-01-02 17:43:36
+2026-01-02 17:43:39,588 - INFO - Current time: 2026-01-02 17:43:39
+2026-01-02 17:43:39,588 - INFO - Total time taken: 3.24 minutes
+2026-01-02 17:43:39,670 - INFO - Face cropping complete!

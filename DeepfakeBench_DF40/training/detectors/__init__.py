@@ -23,3 +23,4 @@ from .ucf_detector import UCFDetector
 from .effort_detector import EffortDetector
 from .altfreezing_detector import AltFreezingDetector
 from .facexray_detector import FaceXrayDetector
+from .multi_attention_detector import MultiAttentionDetector

@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.8928571428571429,
+        "auc": 0.9730725623582767,
+        "eer": 0.09523809523809523,
+        "ap": 0.9736764510753477,
+        "video_auc": 0.9730725623582767
+    },
+    "model": "recce",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/recce_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 3.834416151046753,
+    "frames_per_video_test": 1
+}
