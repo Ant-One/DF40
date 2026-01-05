@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.8696498054474708,
+        "auc": 0.9713384746114819,
+        "eer": 0.09426551453260015,
+        "ap": 0.9699828747410003,
+        "video_auc": 0.9824263038548753
+    },
+    "model": "xception",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/xception_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 7.514631748199463,
+    "frames_per_video_test": 300
+}

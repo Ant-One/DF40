@@ -217,7 +217,7 @@ class DeepfakeAbstractBaseDataset(data.Dataset):
                 # Consider the case when the actual number of frames (e.g., 270) is larger than the specified (i.e., self.frame_num=32)
                 # In this case, we select self.frame_num frames from the original 270 frames
                 total_frames = len(frame_paths)
-
+                
                 if self.frame_num < total_frames:
                     total_frames = self.frame_num
                     if self.video_level:

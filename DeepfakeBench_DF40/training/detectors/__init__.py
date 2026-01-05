@@ -24,3 +24,6 @@ from .effort_detector import EffortDetector
 from .altfreezing_detector import AltFreezingDetector
 from .facexray_detector import FaceXrayDetector
 from .multi_attention_detector import MultiAttentionDetector
+from .genconvited_detector import GenConVitEDDetector
+#from .genconvitvae_detector import GenConVitVAEDetector
+#from .genconvit_detector import GenConVitDetector

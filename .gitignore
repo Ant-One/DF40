@@ -8,3 +8,5 @@ DeepfakeBench_DF40/preprocessing/dataset_json/*
 
 df40_exps/**/preds
 *.pyc
+
+DeepfakeBench_DF40/training/genconvit_weights/genconvit_ed_inference.pth

@@ -182,6 +182,7 @@ def _write_metrics(config, metrics, preds_labels_paths, start_time):
             metrics["train_dataset"] = train_dataset
             metrics["elapsed_seconds"] = time.time() - start_time
             metrics["frames_per_video_test"] = config["frame_num"]["test"]
+            #metrics["clip_size"] = config["clip_size"]
             json.dump(metrics, metrics_file, indent=4, cls=NumpyEncoder)
 
 

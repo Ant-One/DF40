@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.7319897980515951,
+        "auc": 0.8388453197606933,
+        "eer": 0.2507760718181056,
+        "ap": 0.841399697988845,
+        "video_auc": 0.8418367346938775
+    },
+    "model": "xception",
+    "weights_path": "training/df40_weights/train_on_df40-all-ff/xception.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 51.5877103805542,
+    "frames_per_video_test": 300
+}
