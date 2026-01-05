@@ -1,0 +1,14 @@
+{
+    "FSAll_cdf": {
+        "acc": 0.7378624898367335,
+        "auc": 0.6831730657257968,
+        "eer": 0.3758007117437722,
+        "ap": 0.8767778873793153,
+        "video_auc": 0.7431075738660008
+    },
+    "model": "spsl",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/spsl_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 450.314421415329,
+    "frames_per_video_test": 32
+}

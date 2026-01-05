@@ -1,9 +1,9 @@
 eval "$(conda shell.zsh hook)"
 conda activate df40
 
-python training/test.py --detector_path training/config/detector/exception.yaml --test_dataset FSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/exception_best.pth
-python training/test.py --detector_path training/config/detector/exception.yaml --test_dataset FRAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/exception_best.pth
-python training/test.py --detector_path training/config/detector/exception.yaml --test_dataset EFSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/exception_best.pth
+# python training/test.py --detector_path training/config/detector/xception.yaml --test_dataset FSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/xception_best.pth
+# python training/test.py --detector_path training/config/detector/xception.yaml --test_dataset FRAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/xception_best.pth
+# python training/test.py --detector_path training/config/detector/xception.yaml --test_dataset EFSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/xception_best.pth
 
 
 python training/test.py --detector_path training/config/detector/srm.yaml --test_dataset FSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/srm_best.pth
@@ -17,6 +17,10 @@ python training/test.py --detector_path training/config/detector/spsl.yaml --tes
 python training/test.py --detector_path training/config/detector/sbi.yaml --test_dataset FSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/sbi_best.pth
 python training/test.py --detector_path training/config/detector/sbi.yaml --test_dataset FRAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/sbi_best.pth
 python training/test.py --detector_path training/config/detector/sbi.yaml --test_dataset EFSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/sbi_best.pth
+
+python training/test.py --detector_path training/config/detector/recce.yaml --test_dataset FSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/recce_best.pth
+python training/test.py --detector_path training/config/detector/recce.yaml --test_dataset FRAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/recce_best.pth
+python training/test.py --detector_path training/config/detector/recce.yaml --test_dataset EFSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/recce_best.pth
 
 # python training/test.py --detector_path training/config/detector/sbi.yaml --test_dataset FSAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/sbi_best.pth
 # python training/test.py --detector_path training/config/detector/clip_large.yaml --test_dataset FRAll_cdf --weights_path training/deepfakebench_weights/train_on_ff-orig/sbi_best.pth

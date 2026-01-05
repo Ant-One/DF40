@@ -1,0 +1,14 @@
+{
+    "EFSAll_cdf": {
+        "acc": 0.704351236746934,
+        "auc": 0.6775654772193278,
+        "eer": 0.350355871886121,
+        "ap": 0.9007735422585957,
+        "video_auc": 0.8068444374109829
+    },
+    "model": "srm",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/srm_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 1653.3166542053223,
+    "frames_per_video_test": 32
+}
