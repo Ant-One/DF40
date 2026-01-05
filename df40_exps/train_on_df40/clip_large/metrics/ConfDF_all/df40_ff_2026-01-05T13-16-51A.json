@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.825563406781787,
+        "auc": 0.9560729113604403,
+        "eer": 0.11401963251950667,
+        "ap": 0.9482311520975923,
+        "video_auc": 0.9665532879818595
+    },
+    "model": "clip_large",
+    "weights_path": "training/df40_weights/train_on_df40-all-ff/clip_large.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 427.9740915298462,
+    "frames_per_video_test": 300
+}

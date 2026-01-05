@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.5806330225362712,
+        "auc": 0.7103990267080478,
+        "eer": 0.34549878345498786,
+        "ap": 0.6597324164686134,
+        "video_auc": 0.7409297052154195
+    },
+    "model": "effort",
+    "weights_path": "training/deepfakebench_weights/train_on_genimage/effort_genimage_best.pth",
+    "train_dataset": "genimage_ff",
+    "elapsed_seconds": 427.7746694087982,
+    "frames_per_video_test": 300
+}

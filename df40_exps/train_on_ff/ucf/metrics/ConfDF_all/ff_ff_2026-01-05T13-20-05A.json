@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.9079315967721704,
+        "auc": 0.9781883481125534,
+        "eer": 0.07785888077858881,
+        "ap": 0.978070465724906,
+        "video_auc": 0.9846938775510203
+    },
+    "model": "ucf",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/ucf_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 92.73419713973999,
+    "frames_per_video_test": 300
+}

@@ -1,0 +1,14 @@
+{
+    "ConfDF_all": {
+        "acc": 0.7620939080988418,
+        "auc": 0.9729200259220427,
+        "eer": 0.07903347596274855,
+        "ap": 0.9746526926407115,
+        "video_auc": 0.9852607709750567
+    },
+    "model": "srm",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/srm_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 125.81134080886841,
+    "frames_per_video_test": 300
+}
