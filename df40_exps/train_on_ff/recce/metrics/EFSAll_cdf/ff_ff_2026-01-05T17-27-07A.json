@@ -1,0 +1,14 @@
+{
+    "EFSAll_cdf": {
+        "acc": 0.6018289462712288,
+        "auc": 0.7073294230909152,
+        "eer": 0.35604982206405694,
+        "ap": 0.9151952731019488,
+        "video_auc": 0.8304320303845545
+    },
+    "model": "recce",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/recce_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 1423.2725665569305,
+    "frames_per_video_test": 32
+}

@@ -247,6 +247,7 @@ def main():
             ckpt = ckpt['state_dict']
 
         new_weights = {}
+
         for key, value in ckpt.items():
             new_key = key.replace('module.', '')  # 删除module前缀
             if 'base_model.' in new_key:
