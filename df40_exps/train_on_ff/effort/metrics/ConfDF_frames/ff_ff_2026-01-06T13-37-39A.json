@@ -1,0 +1,14 @@
+{
+    "ConfDF_frames": {
+        "acc": 0.7087053571428571,
+        "auc": 0.9665649137259069,
+        "eer": 0.09226190476190477,
+        "ap": 0.9741892439741238,
+        "video_auc": 0.9713718820861676
+    },
+    "model": "effort",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/effort_ff_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 49.97455048561096,
+    "frames_per_video_test": 32
+}

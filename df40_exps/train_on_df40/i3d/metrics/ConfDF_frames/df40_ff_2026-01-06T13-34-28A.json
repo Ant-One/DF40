@@ -1,0 +1,14 @@
+{
+    "ConfDF_frames": {
+        "acc": 0.5,
+        "auc": 0.5834041950113379,
+        "eer": 0.44047619047619047,
+        "ap": 0.5780746407231279,
+        "video_auc": 0.5834041950113379
+    },
+    "model": "i3d",
+    "weights_path": "training/df40_weights/train_on_df40-all-ff/i3d.pth",
+    "train_dataset": "df40_ff",
+    "elapsed_seconds": 6.67479944229126,
+    "frames_per_video_test": 32
+}

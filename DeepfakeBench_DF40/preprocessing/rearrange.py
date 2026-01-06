@@ -759,7 +759,7 @@ def generate_dataset_file(dataset_name, dataset_root_path, output_file_path, com
                         frame_paths = [os.path.join(video_path, frame.name) for frame in os.scandir(video_path)]
                         dataset_dict[dataset_name][label]['test'][video_name] = {'label': label, 'frames': frame_paths}
 
-    elif dataset_name == "ConfDF_all_frames":
+    elif dataset_name == "ConfDF_frames":
         dataset_path = os.path.join(dataset_root_path, dataset_name)
         dataset_dict[dataset_name] = {'ConfDF_real': {'train': {}, 'test': {}, 'val': {}},
                                 'ConfDF_fake': {'train': {}, 'test': {}, 'val': {}}}
