@@ -1,0 +1,14 @@
+{
+    "ConfDF_frames": {
+        "acc": 0.5687593423019432,
+        "auc": 0.6200218075218076,
+        "eer": 0.41220238095238093,
+        "ap": 0.6197061166967893,
+        "video_auc": 0.6200218075218076
+    },
+    "model": "altfreezing",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/altfreezing_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 33.31786108016968,
+    "frames_per_video_test": 256
+}
