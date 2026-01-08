@@ -30,7 +30,7 @@ from torchvision import transforms as T
 
 import albumentations as A
 
-from dataset.albu import IsotropicResize
+from .albu import IsotropicResize
 
 FFpp_pool=['FaceForensics++','FaceShifter','DeepFakeDetection','FF-DF','FF-F2F','FF-FS','FF-NT']#
 
