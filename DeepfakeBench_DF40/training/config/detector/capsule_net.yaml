@@ -6,7 +6,7 @@ preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/capsule_net/preds/
 save_preds: true
 
 # model setting
-pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: capsule_net # model name
 backbone_name: xception  # no backbone VGGextractor
 num_classes: 2

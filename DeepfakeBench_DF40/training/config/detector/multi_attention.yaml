@@ -6,7 +6,7 @@ preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/mat/preds/
 save_preds: true
 
 # model setting
-pretrained: ./training/pretrained/efficientnet-b4-6ed6700e.pth   # path to a pre-trained model, if using one
+pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/efficientnet-b4-6ed6700e.pth   # path to a pre-trained model, if using one
 model_name: multi_attention   # model name
 backbone_name: efficientnetb4  # backbone name
 

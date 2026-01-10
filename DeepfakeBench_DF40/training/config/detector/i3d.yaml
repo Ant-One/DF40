@@ -6,7 +6,7 @@ preds_dir:  /home/antoine/DF40/df40_exps/$trainDataset/i3d/preds/
 save_preds: true
 
 # model setting
-pretrained: pretrained/I3D_8x8_R50.pth   # path to a pre-trained model, if using one
+pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/I3D_8x8_R50.pth   # path to a pre-trained model, if using one
 #pretrained: null
 model_name: i3d   # model name
 backbone_name: xception  # backbone name

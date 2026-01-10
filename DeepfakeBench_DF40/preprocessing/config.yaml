@@ -1,6 +1,6 @@
 preprocess:
   dataset_name: # the name of dataset
-    choices: ['FaceForensics++','Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','roop','uniface','simswap','DF40_ff','DF40_cdf', 'ConfDF_all', 'ConfDF_rames']
+    choices: ['FaceForensics++','Celeb-DF-v1', 'Celeb-DF-v2', 'DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','roop','uniface','simswap','DF40_ff','DF40_cdf', 'ConfDF_all', 'ConfDF_frames', 'ConfDF_frames_norm']
     default: 'ConfDF_frames'
   dataset_root_path: # the root path to the dataset
     type: str
@@ -20,8 +20,8 @@ preprocess:
 
 rearrange:
   dataset_name: # the name of dataset
-    choices: ['FaceForensics++', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2','DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','FaceShifter','roop','uniface','simswap', 'ConfDF_all', 'ConfDF_frames']
-    default: 'ConfDF_frames'
+    choices: ['FaceForensics++', 'DeepFakeDetection', 'Celeb-DF-v1', 'Celeb-DF-v2','DFDCP', 'DFDC', 'DeeperForensics-1.0','UADFV','FaceShifter','roop','uniface','simswap', 'ConfDF_all', 'ConfDF_frames', 'ConfDF_frames_norm']
+    default: 'ConfDF_frames_norm'
   dataset_root_path: # the root path to the dataset
     type: str
     default: '/home/antoine/DF40/DeepfakeBench_DF40/deepfakes_detection_datasets/'

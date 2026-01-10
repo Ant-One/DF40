@@ -1,0 +1,14 @@
+{
+    "ConfDF_frames_norm": {
+        "acc": 0.6319012624835123,
+        "auc": 0.7855064782999411,
+        "eer": 0.3074666414308697,
+        "ap": 0.8083345290167357,
+        "video_auc": 0.7891156462585034
+    },
+    "model": "capsule_net",
+    "weights_path": "training/deepfakebench_weights/train_on_ff-orig/capsule_best.pth",
+    "train_dataset": "ff_ff",
+    "elapsed_seconds": 66.97269320487976,
+    "frames_per_video_test": 256
+}

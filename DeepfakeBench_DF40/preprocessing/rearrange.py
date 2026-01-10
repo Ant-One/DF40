@@ -779,6 +779,27 @@ def generate_dataset_file(dataset_name, dataset_root_path, output_file_path, com
                     frame_paths = [os.path.join(video_path, frame.name) for frame in os.scandir(video_path)]
                     dataset_dict[dataset_name][label]['test'][video_name] = {'label': label, 'frames': frame_paths}
 
+    elif dataset_name == "ConfDF_frames_norm":
+        dataset_path = os.path.join(dataset_root_path, dataset_name)
+        dataset_dict[dataset_name] = {'ConfDF_real': {'train': {}, 'test': {}, 'val': {}},
+                                'ConfDF_fake': {'train': {}, 'test': {}, 'val': {}}}
+        for folder in os.scandir(dataset_path):
+            if not os.path.isdir(folder):
+                continue
+            elif folder.name in ['fake']:
+                for video_path in os.scandir(os.path.join(dataset_path, folder.name, 'frames')):
+                    video_name = video_path.name
+                    label = 'ConfDF_fake'
+                    frame_paths = [os.path.join(video_path, frame.name) for frame in os.scandir(video_path)]
+                    dataset_dict[dataset_name][label]['test'][video_name] = {'label': label, 'frames': frame_paths}
+            elif folder.name in ['real']:
+                for video_path in os.scandir(os.path.join(dataset_path, folder.name, 'frames')):
+                    video_name = video_path.name
+                    label = 'ConfDF_real'
+                    frame_paths = [os.path.join(video_path, frame.name) for frame in os.scandir(video_path)]
+                    dataset_dict[dataset_name][label]['test'][video_name] = {'label': label, 'frames': frame_paths}
+
+
 
 
 

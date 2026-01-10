@@ -6,7 +6,7 @@ save_preds: true
 
 # model setting
 is_pretrained: true
-pretrained: ./training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
+pretrained: /home/antoine/DF40/DeepfakeBench_DF40/training/pretrained/xception-b5690688.pth   # path to a pre-trained model, if using one
 model_name: genconvited   # model name
 backbone_name: convnext_tiny  # backbone name
 embedder_name: swin_tiny_patch4_window7_224
